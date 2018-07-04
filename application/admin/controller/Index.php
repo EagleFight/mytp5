@@ -11,4 +11,6 @@ class Index extends Home
     public function login(){
         return view();
     }
+
+
 }

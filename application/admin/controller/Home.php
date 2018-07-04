@@ -15,6 +15,7 @@ use think\Db;
 class Home extends Controller
 {
     protected function _initialize(){
+
         $system = Db::table('system_menu');
         $menu = $system->where('pid',0)->column('id,title,url');
         $pids = array_keys($menu);
@@ -26,7 +27,6 @@ class Home extends Controller
                 }
             }
         }
-//        dump($menu);exit();
         $this->assign('menu',$menu);
     }
 }

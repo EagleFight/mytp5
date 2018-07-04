@@ -1,11 +1,12 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\mytp5\public/../application/admin\view\index\index.html";i:1530687868;s:54:"E:\xampp\htdocs\mytp5\application\admin\view\base.html";i:1530687826;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\mytp5\public/../application/admin\view\index\index.html";i:1530687868;s:54:"E:\xampp\htdocs\mytp5\application\admin\view\base.html";i:1530691342;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title></title>
     <link href="/layui/css/layui.css" rel="stylesheet">
-    <link href="/home/css/common.css" rel="stylesheet">
+    <link href="/admin/css/style.css" rel="stylesheet">
+    
 </head>
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
@@ -71,13 +72,9 @@
     </div>
 </div>
 
-<script src="layui/layui.js"></script>
-<script>
-    //JavaScript代码区域
-    layui.use('element', function(){
-        var element = layui.element;
+<script src="/layui/layui.js"></script>
 
-    });
-</script>
+
+
 </body>
 </html>
