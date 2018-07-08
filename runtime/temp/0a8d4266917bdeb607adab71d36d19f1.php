@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html";i:1531018167;s:58:"E:\xampp\htdocs\tp5\application\home\view\public\base.html";i:1531019435;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html";i:1531018167;s:58:"E:\xampp\htdocs\tp5\application\home\view\public\base.html";i:1531021715;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,9 +21,13 @@
         </nav>
         <nav id="two-nav"></nav>
     </header>
+    <section>
+        <div class="mui-content">
 
+        </div>
+    </section>
     <footer>
-        <nav class="mui-bar mui-bar-tab">
+        <nav class="mui-bar mui-bar-tab" style="display: none;">
             <a class="mui-tab-item mui-active">
                 <span class="mui-icon mui-icon-home"></span>
                 <span class="mui-tab-label">首页</span>
