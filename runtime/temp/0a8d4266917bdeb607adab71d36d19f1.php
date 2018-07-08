@@ -1,81 +1,46 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:68:"E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html";i:1530957561;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html";i:1531018167;s:58:"E:\xampp\htdocs\tp5\application\home\view\public\base.html";i:1531019435;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="Login.css"/>
-    <style>
-        html{
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            font-style: sans-serif;
-        }
-        body{
-            width: 100%;
-            height: 100%;
-            font-family: 'Open Sans',sans-serif;
-            margin: 0;
-            background-color: #4A374A;
-        }
-        #login{
-            position: absolute;
-            top: 50%;
-            left:50%;
-            margin: -150px 0 0 -150px;
-            width: 300px;
-            height: 300px;
-        }
-        #login h1{
-            color: #fff;
-            text-shadow:0 0 10px;
-            letter-spacing: 1px;
-            text-align: center;
-        }
-        h1{
-            font-size: 2em;
-            margin: 0.67em 0;
-        }
-        input{
-            width: 278px;
-            height: 18px;
-            margin-bottom: 10px;
-            outline: none;
-            padding: 10px;
-            font-size: 13px;
-            color: #fff;
-            text-shadow:1px 1px 1px;
-            border-top: 1px solid #312E3D;
-            border-left: 1px solid #312E3D;
-            border-right: 1px solid #312E3D;
-            border-bottom: 1px solid #56536A;
-            border-radius: 4px;
-            background-color: #2D2D3F;
-        }
-        .but{
-            width: 300px;
-            min-height: 20px;
-            display: block;
-            background-color: #4a77d4;
-            border: 1px solid #3762bc;
-            color: #fff;
-            padding: 9px 14px;
-            font-size: 15px;
-            line-height: normal;
-            border-radius: 5px;
-            margin: 0;
-        }
-    </style>
+    <title></title>
+    <script src="home/js/mui.min.js"></script>
+    <link href="home/css/mui.min.css" rel="stylesheet"/>
+    <link href="home/css/common.css" rel="stylesheet">
+    <script src="home/js/jquery-2.1.0.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+
 </head>
 <body>
-<div id="login">
-    <h1>Login</h1>
-    <form method="post">
-        <input type="text" required="required" placeholder="用户名" name="u"></input>
-        <input type="password" required="required" placeholder="密码" name="p"></input>
-        <button class="but" type="submit">登录</button>
-    </form>
-</div>
+    <header>
+        <div class="logo"><img src=""></div>
+        <nav id="one-nav">
+            <ul></ul>
+        </nav>
+        <nav id="two-nav"></nav>
+    </header>
+
+    <footer>
+        <nav class="mui-bar mui-bar-tab">
+            <a class="mui-tab-item mui-active">
+                <span class="mui-icon mui-icon-home"></span>
+                <span class="mui-tab-label">首页</span>
+            </a>
+            <a class="mui-tab-item">
+                <span class="mui-icon mui-icon-phone"></span>
+                <span class="mui-tab-label">电话</span>
+            </a>
+            <a class="mui-tab-item">
+                <span class="mui-icon mui-icon-email"></span>
+                <span class="mui-tab-label">邮件</span>
+            </a>
+            <a class="mui-tab-item">
+                <span class="mui-icon mui-icon-gear"></span>
+                <span class="mui-tab-label">设置</span>
+            </a>
+        </nav>
+    </footer>
 </body>
-</html>  
+</html>
