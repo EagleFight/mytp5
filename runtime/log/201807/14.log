@@ -2128,3 +2128,3254 @@
 [ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014461s ]
 [ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.030810s ]
 [ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.032852s ]
+---------------------------------------------------------------
+[ 2018-07-14T10:42:39+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1 [运行时间：0.034387s][吞吐率：29.08req/s] [内存消耗：1,357.12kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JvhLGVcrlwz0bCRKXVHrYH/aQAyyzd3n2FX52EH/0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg/VWnIXEl2VdjHcQ2qoAyexE+hJBzOJE/dcOuHl7fVjFBLG+11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5+2qsmNWA189ctl4578v1mzy45vX0ydNRVI/WILtD1Ntc1n+Bw+uhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45+5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc/Y9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7+C1RdohfXMcuzg7NSTpx7odT4n6/DasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ+RVBBhVd8pyiVwpZ6CNP7Ss+wrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad+bImXgqFMhLhu8O1/125kmYxXg1AJB6yYOSWywpLjYD7dA==',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:02:49+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] 127.0.0.1:8080/admin/sockjs.js.map [运行时间：0.034028s][吞吐率：29.39req/s] [内存消耗：1,361.61kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:03:00+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.1:8080/admin/user/index [运行时间：0.087440s][吞吐率：11.44req/s] [内存消耗：1,362.27kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:04:12+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] 127.0.0.1:8080/admin/sockjs.js.map [运行时间：0.029186s][吞吐率：34.26req/s] [内存消耗：1,361.61kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:04:13+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.1:8080/admin/user/index [运行时间：0.046540s][吞吐率：21.49req/s] [内存消耗：1,362.70kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:13:20+08:00 ] 127.0.0.1 GET /admin/favicon.ico
+[ info ] 127.0.0.1:8080/admin/favicon.ico [运行时间：0.056731s][吞吐率：17.63req/s] [内存消耗：1,362.04kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:13:22+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.1:8080/admin/user/index [运行时间：0.041191s][吞吐率：24.28req/s] [内存消耗：1,362.27kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:13:46+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] 127.0.0.1:8080/admin/home/index [运行时间：0.489064s][吞吐率：2.04req/s] [内存消耗：2,440.87kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.248661s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.076906s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.059200s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.061049s ]
+---------------------------------------------------------------
+[ 2018-07-14T11:13:50+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.1:8080/admin/user/index [运行时间：0.050227s][吞吐率：19.91req/s] [内存消耗：1,362.27kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:15:04+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.1:8080/admin/user/index [运行时间：0.042056s][吞吐率：23.78req/s] [内存消耗：1,362.25kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:15:04+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] 127.0.0.1:8080/admin/sockjs.js.map [运行时间：0.029575s][吞吐率：33.81req/s] [内存消耗：1,361.61kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:15:05+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.1:8080/admin/user/index [运行时间：0.046718s][吞吐率：21.40req/s] [内存消耗：1,362.70kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:16:10+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] 127.0.0.1:8080/admin/sockjs.js.map [运行时间：0.027762s][吞吐率：36.02req/s] [内存消耗：1,361.61kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:16:11+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.1:8080/admin/user/index [运行时间：0.048399s][吞吐率：20.66req/s] [内存消耗：1,362.70kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:16:39+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] 127.0.0.1:8080/admin/sockjs.js.map [运行时间：0.034676s][吞吐率：28.84req/s] [内存消耗：1,361.62kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:16:40+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.1:8080/admin/user/index [运行时间：0.056029s][吞吐率：17.85req/s] [内存消耗：1,362.70kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:19:38+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] 127.0.0.1:8080/admin/sockjs.js.map [运行时间：0.035385s][吞吐率：28.26req/s] [内存消耗：1,361.61kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:19:38+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.1:8080/admin/user/index [运行时间：0.040721s][吞吐率：24.56req/s] [内存消耗：1,362.70kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:19:46+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.1:8080/admin/user/index [运行时间：0.040146s][吞吐率：24.91req/s] [内存消耗：1,362.27kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:19:48+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] 127.0.0.1:8080/admin/sockjs.js.map [运行时间：0.026790s][吞吐率：37.33req/s] [内存消耗：1,361.61kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T11:19:49+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.1:8080/admin/user/index [运行时间：0.034984s][吞吐率：28.58req/s] [内存消耗：1,362.70kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T12:42:41+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1 [运行时间：1.142803s][吞吐率：0.88req/s] [内存消耗：1,357.21kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JvhLGVcrlwz0bCRKXVHrYH/aQAyyzd3n2FX52EH/0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg/VWnIXEl2VdjHcQ2qoAyexE+hJBzOJE/dcOuHl7fVjFBLG+11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5+2qsmNWA189ctl4578v1mzy45vX0ydNRVI/WILtD1Ntc1n+Bw+uhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45+5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc/Y9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7+C1RdohfXMcuzg7NSTpx7odT4n6/DasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ+RVBBhVd8pyiVwpZ6CNP7Ss+wrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad+bImXgqFMhLhu8O1/125kmYxXg1AJB6yYOSWywpLjYD7dA==',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:41:48+08:00 ] 127.0.0.1 GET /admin/d64d71589f63533dc400.hot-update.json
+[ info ] 127.0.0.1:8080/admin/d64d71589f63533dc400.hot-update.json [运行时间：0.088145s][吞吐率：11.34req/s] [内存消耗：1,361.93kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'd64d71589f63533dc400.hot-update.json',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:41:51+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] 127.0.0.1:8080/admin/sockjs.js.map [运行时间：0.043519s][吞吐率：22.98req/s] [内存消耗：1,361.61kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:41:51+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] 127.0.0.1:8080/admin/user/index [运行时间：0.027286s][吞吐率：36.65req/s] [内存消耗：1,362.27kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:41:52+08:00 ] 127.0.0.1 GET /admin/favicon.ico
+[ info ] 127.0.0.1:8080/admin/favicon.ico [运行时间：0.045651s][吞吐率：21.91req/s] [内存消耗：1,362.04kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:42:51+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.020767s][吞吐率：48.15req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:42:52+08:00 ] 127.0.0.1 GET /admin/favicon.ico
+[ info ] localhost:8080/admin/favicon.ico [运行时间：0.049381s][吞吐率：20.25req/s] [内存消耗：1,362.66kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:42:52+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.997935s][吞吐率：1.00req/s] [内存消耗：2,441.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.214392s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.036407s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.174286s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.033430s ]
+---------------------------------------------------------------
+[ 2018-07-14T13:42:59+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] 127.0.0.1:8080/admin/sockjs.js.map [运行时间：0.045410s][吞吐率：22.02req/s] [内存消耗：1,361.61kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:42:59+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] 127.0.0.1:8080/admin/home/index [运行时间：0.432867s][吞吐率：2.31req/s] [内存消耗：2,440.87kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068612s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.059359s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.178398s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.090010s ]
+---------------------------------------------------------------
+[ 2018-07-14T13:43:02+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.024504s][吞吐率：40.81req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:43:05+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.035089s][吞吐率：28.50req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:43:06+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.233127s][吞吐率：4.29req/s] [内存消耗：2,441.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059478s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.025762s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.035820s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.072486s ]
+---------------------------------------------------------------
+[ 2018-07-14T13:44:45+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.025803s][吞吐率：38.76req/s] [内存消耗：1,362.84kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:46:30+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.195635s][吞吐率：5.11req/s] [内存消耗：2,441.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068984s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.016323s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.031527s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.040690s ]
+---------------------------------------------------------------
+[ 2018-07-14T13:47:39+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.201940s][吞吐率：4.95req/s] [内存消耗：2,441.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059891s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.010761s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.029216s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.039420s ]
+---------------------------------------------------------------
+[ 2018-07-14T13:47:39+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.033020s][吞吐率：30.28req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:47:40+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.197978s][吞吐率：5.05req/s] [内存消耗：2,441.67kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063478s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.012926s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.028901s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.035181s ]
+---------------------------------------------------------------
+[ 2018-07-14T13:47:47+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.164630s][吞吐率：6.07req/s] [内存消耗：2,441.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042765s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014720s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.028188s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.035547s ]
+---------------------------------------------------------------
+[ 2018-07-14T13:50:36+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.178929s][吞吐率：5.59req/s] [内存消耗：2,441.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059403s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.018479s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.025858s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.042913s ]
+---------------------------------------------------------------
+[ 2018-07-14T13:51:20+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.203950s][吞吐率：4.90req/s] [内存消耗：2,441.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.061971s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015693s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.041759s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.039390s ]
+---------------------------------------------------------------
+[ 2018-07-14T13:51:20+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.032497s][吞吐率：30.77req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:51:20+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.200292s][吞吐率：4.99req/s] [内存消耗：2,441.67kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045799s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.008483s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.036311s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.063650s ]
+---------------------------------------------------------------
+[ 2018-07-14T13:51:29+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.178567s][吞吐率：5.60req/s] [内存消耗：2,441.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049457s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.012658s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.027716s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.039146s ]
+---------------------------------------------------------------
+[ 2018-07-14T13:51:29+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.022575s][吞吐率：44.30req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:51:30+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.173663s][吞吐率：5.76req/s] [内存消耗：2,441.67kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042592s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.010763s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.030356s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.043814s ]
+---------------------------------------------------------------
+[ 2018-07-14T13:52:21+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.028376s][吞吐率：35.24req/s] [内存消耗：1,362.84kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T13:58:44+08:00 ] 127.0.0.1 GET /admin/user
+[ info ] 127.0.0.1/admin/user [运行时间：0.397759s][吞吐率：2.51req/s] [内存消耗：2,133.50kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.187902s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.089842s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.071643s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:00:50+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.248231s][吞吐率：4.03req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.151458s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.009531s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.043996s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:00:53+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.031411s][吞吐率：31.84req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:01:17+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.117634s][吞吐率：8.50req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036934s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.010576s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.044703s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:01:35+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.126058s][吞吐率：7.93req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037677s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.021381s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.044428s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:01:35+08:00 ] 127.0.0.1 GET /admin/user
+[ info ] 127.0.0.1/admin/user [运行时间：0.141143s][吞吐率：7.09req/s] [内存消耗：2,133.82kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037795s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.017098s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.044345s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:04:42+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.254369s][吞吐率：3.93req/s] [内存消耗：2,441.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133500s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.013352s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.050976s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.018931s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:16:43+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.194680s][吞吐率：5.14req/s] [内存消耗：2,441.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053925s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.011996s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.032648s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.040789s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:16:48+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.169317s][吞吐率：5.91req/s] [内存消耗：2,441.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031109s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014311s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.031469s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.046964s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:16:49+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.039871s][吞吐率：25.08req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:16:50+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.173929s][吞吐率：5.75req/s] [内存消耗：2,441.67kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042660s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015629s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.032894s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.032819s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:16:55+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.149504s][吞吐率：6.69req/s] [内存消耗：2,441.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014827s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015045s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.029630s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.046100s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:19:09+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.195607s][吞吐率：5.11req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.105907s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.011162s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.043800s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:20:01+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.154075s][吞吐率：6.49req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049722s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.015110s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.046039s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:20:01+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.046068s][吞吐率：21.71req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:20:02+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.152615s][吞吐率：6.55req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047382s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.015953s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.047779s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:20:17+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.157483s][吞吐率：6.35req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040701s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.027928s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.043209s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:20:18+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.031595s][吞吐率：31.65req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:20:18+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.130339s][吞吐率：7.67req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027798s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.019211s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.046112s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:20:40+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.155581s][吞吐率：6.43req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045273s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.013142s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.044335s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:20:40+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.043004s][吞吐率：23.25req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:20:40+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.135796s][吞吐率：7.36req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037761s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.014124s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.035257s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:21:02+08:00 ] 127.0.0.1 GET /admin/home/index
+[ info ] localhost:8080/admin/home/index [运行时间：0.163751s][吞吐率：6.11req/s] [内存消耗：2,441.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Home->index[ E:\xampp\htdocs\tp5\application\admin\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042941s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014225s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`url` FROM `system_menu` WHERE  `pid` = 0 [ RunTime:0.029677s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url` FROM `system_menu` WHERE  `pid` IN (1,2,11,18,22,28,32,35,39,41,43,47) [ RunTime:0.034186s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:21:07+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.158602s][吞吐率：6.31req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045148s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.021545s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.047146s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:21:33+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.211181s][吞吐率：4.74req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.089476s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.017569s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.047367s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:21:34+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.050883s][吞吐率：19.65req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:21:34+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.158036s][吞吐率：6.33req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060088s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.016825s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.047163s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:21:48+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.119955s][吞吐率：8.34req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039005s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.018004s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.035334s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:21:50+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.029823s][吞吐率：33.53req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:21:51+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.130324s][吞吐率：7.67req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034740s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.012366s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.040954s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:22:07+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.124968s][吞吐率：8.00req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036970s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.015921s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.037588s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:22:09+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.037490s][吞吐率：26.67req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:22:09+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.133200s][吞吐率：7.51req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051962s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.011886s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.032411s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:22:25+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.139825s][吞吐率：7.15req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044887s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.009280s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.042437s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:22:26+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.041182s][吞吐率：24.28req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:22:26+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.129014s][吞吐率：7.75req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044146s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.012467s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.039947s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:24:03+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.157808s][吞吐率：6.34req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052295s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.016047s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.046677s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:24:04+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.036422s][吞吐率：27.46req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:24:04+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.114385s][吞吐率：8.74req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036178s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.009254s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.036057s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:24:21+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.169255s][吞吐率：5.91req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055852s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.027302s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.045259s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:25:20+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.564975s][吞吐率：1.77req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.181190s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.165248s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.143440s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:25:20+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.032016s][吞吐率：31.23req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:25:21+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.348633s][吞吐率：2.87req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.082359s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.190415s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.032051s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:31:39+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.771459s][吞吐率：1.30req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.076828s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.021281s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.640287s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:32:59+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.149772s][吞吐率：6.68req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.071227s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.011149s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.044424s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:33:01+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.028411s][吞吐率：35.20req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:33:01+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.130949s][吞吐率：7.64req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040319s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.013849s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.039852s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:33:07+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.132378s][吞吐率：7.55req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038641s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.013724s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.039283s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:33:08+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.040236s][吞吐率：24.85req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:33:09+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.159114s][吞吐率：6.28req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056073s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.018127s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.046678s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:33:21+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.142303s][吞吐率：7.03req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035402s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.014223s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.054816s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:34:00+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.147860s][吞吐率：6.76req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043741s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.015429s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.043470s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:36:14+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.123044s][吞吐率：8.13req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035554s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.015449s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.038794s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:36:28+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.143804s][吞吐率：6.95req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056545s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.011911s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.039433s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:36:28+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.025902s][吞吐率：38.61req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:36:29+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.265509s][吞吐率：3.77req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055293s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.080882s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.093318s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:36:45+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.039257s][吞吐率：25.47req/s] [内存消耗：1,362.10kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:36:46+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.128062s][吞吐率：7.81req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035183s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.015389s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.039292s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:36:59+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.023714s][吞吐率：42.17req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:36:59+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.581229s][吞吐率：1.72req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.416258s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.030849s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.097006s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:37:19+08:00 ] 127.0.0.1 GET /admin/sockjs.js.map
+[ info ] localhost:8080/admin/sockjs.js.map [运行时间：0.038477s][吞吐率：25.99req/s] [内存消耗：1,362.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sockjs.js.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-14T14:37:20+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.125704s][吞吐率：7.96req/s] [内存消耗：2,134.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041274s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.013964s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.037846s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:37:26+08:00 ] 127.0.0.1 GET /admin/user/index
+[ info ] localhost:8080/admin/user/index [运行时间：0.140099s][吞吐率：7.14req/s] [内存消耗：2,134.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2324623360; Idea-755a90e2=91bd1eef-0d78-4c09-9675-1cbda97820ce; Hm_lvt_1ad0a5c62a113bb874be8bb514b0a70d=1513831184',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\xampp\htdocs\tp5\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038316s ] mysql:host=192.168.2.7;dbname=hubo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `health_user` [ RunTime:0.019821s ]
+[ sql ] [ SQL ] SELECT * FROM `health_user` WHERE  `user_type` = 1 [ RunTime:0.043229s ]
+---------------------------------------------------------------
+[ 2018-07-14T14:42:40+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1 [运行时间：0.040751s][吞吐率：24.54req/s] [内存消耗：1,357.21kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JvhLGVcrlwz0bCRKXVHrYH/aQAyyzd3n2FX52EH/0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg/VWnIXEl2VdjHcQ2qoAyexE+hJBzOJE/dcOuHl7fVjFBLG+11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5+2qsmNWA189ctl4578v1mzy45vX0ydNRVI/WILtD1Ntc1n+Bw+uhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45+5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc/Y9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7+C1RdohfXMcuzg7NSTpx7odT4n6/DasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ+RVBBhVd8pyiVwpZ6CNP7Ss+wrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad+bImXgqFMhLhu8O1/125kmYxXg1AJB6yYOSWywpLjYD7dA==',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
