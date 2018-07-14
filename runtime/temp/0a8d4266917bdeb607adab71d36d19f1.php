@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html";i:1531018167;s:58:"E:\xampp\htdocs\tp5\application\home\view\public\base.html";i:1531271753;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html";i:1531289641;s:58:"E:\xampp\htdocs\tp5\application\home\view\public\base.html";i:1531289641;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +23,7 @@
     </header>
     <section>
         <div class="mui-content">
-
+            55555555555
         </div>
     </section>
     <footer>

@@ -131,3 +131,59 @@
 [ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-11T14:14:06+08:00 ] 127.0.0.1 GET /
+[ info ] 5bgsqd.natappfree.cc/ [运行时间：0.050175s][吞吐率：19.93req/s] [内存消耗：1,705.16kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '5bgsqd.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-11T14:40:24+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JtlXY3Qjc54BZw%2BLP3ehwpxTRMmR4uICLTfBXEltzEfzB5Cxp6Un07yIKuAwTskYQYAifKIZQvovSo2gLYnrymXyP1nq1zpjCZVuRAvnJxTxkzTW1t6SGd%2B9bKqKihVc7mCyuZbL96lfG4WuLUCNMECrasseXmZzmS%2B9OE4GEjlYcq5rj87fYrSDIyvXE%2FRm5ZxcQq%2B76Rdpo3u6GD%2BjzaRkCHsL3w%2BnNvRfcC6Ov1Q7gG2KZRVQjdQpsFPEKJ5NsALw4MSx72luk9SPEev0N6a7%2B4eGP%2BVYF7pG7a%2B%2BrybDyUi9MQidATsgeDZ1EvydTthdD0dmMKUpGrYu29wJpzkDmNtQzTgFz3DAuZq8veD6%2FFJ47bO7GMvPDFten5qOwCdt6H7WsxX9%2FGMN29xhdaHlcKschHJPaGZGeRYxhZ0DNTkU7RaMU4CK393OAB2s60GPG%2BLkR3ePUxAqpSiTd5qwsqIVvx0RkljAT5e8ta7XIDGOH%2F1l98Jem1ZFABHw12YO3VCb7I1ZjhbWhUnYLafKoJsDeS50AQ8DE8l%2FUJ1i2qC9HRtGn8QgvfSHUuxs0v9KQW0BBN8c9%2FT4gjl73aItA39ayGM9XTMaJxyH8ZnLYC2VjWT%2B0xR&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JtlXY3Qjc54BZw%2BLP3ehwpxTRMmR4uICLTfBXEltzEfzB5Cxp6Un07yIKuAwTskYQYAifKIZQvovSo2gLYnrymXyP1nq1zpjCZVuRAvnJxTxkzTW1t6SGd%2B9bKqKihVc7mCyuZbL96lfG4WuLUCNMECrasseXmZzmS%2B9OE4GEjlYcq5rj87fYrSDIyvXE%2FRm5ZxcQq%2B76Rdpo3u6GD%2BjzaRkCHsL3w%2BnNvRfcC6Ov1Q7gG2KZRVQjdQpsFPEKJ5NsALw4MSx72luk9SPEev0N6a7%2B4eGP%2BVYF7pG7a%2B%2BrybDyUi9MQidATsgeDZ1EvydTthdD0dmMKUpGrYu29wJpzkDmNtQzTgFz3DAuZq8veD6%2FFJ47bO7GMvPDFten5qOwCdt6H7WsxX9%2FGMN29xhdaHlcKschHJPaGZGeRYxhZ0DNTkU7RaMU4CK393OAB2s60GPG%2BLkR3ePUxAqpSiTd5qwsqIVvx0RkljAT5e8ta7XIDGOH%2F1l98Jem1ZFABHw12YO3VCb7I1ZjhbWhUnYLafKoJsDeS50AQ8DE8l%2FUJ1i2qC9HRtGn8QgvfSHUuxs0v9KQW0BBN8c9%2FT4gjl73aItA39ayGM9XTMaJxyH8ZnLYC2VjWT%2B0xR&v=1 [运行时间：0.061924s][吞吐率：16.15req/s] [内存消耗：1,357.23kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JtlXY3Qjc54BZw+LP3ehwpxTRMmR4uICLTfBXEltzEfzB5Cxp6Un07yIKuAwTskYQYAifKIZQvovSo2gLYnrymXyP1nq1zpjCZVuRAvnJxTxkzTW1t6SGd+9bKqKihVc7mCyuZbL96lfG4WuLUCNMECrasseXmZzmS+9OE4GEjlYcq5rj87fYrSDIyvXE/Rm5ZxcQq+76Rdpo3u6GD+jzaRkCHsL3w+nNvRfcC6Ov1Q7gG2KZRVQjdQpsFPEKJ5NsALw4MSx72luk9SPEev0N6a7+4eGP+VYF7pG7a++rybDyUi9MQidATsgeDZ1EvydTthdD0dmMKUpGrYu29wJpzkDmNtQzTgFz3DAuZq8veD6/FJ47bO7GMvPDFten5qOwCdt6H7WsxX9/GMN29xhdaHlcKschHJPaGZGeRYxhZ0DNTkU7RaMU4CK393OAB2s60GPG+LkR3ePUxAqpSiTd5qwsqIVvx0RkljAT5e8ta7XIDGOH/1l98Jem1ZFABHw12YO3VCb7I1ZjhbWhUnYLafKoJsDeS50AQ8DE8l/UJ1i2qC9HRtGn8QgvfSHUuxs0v9KQW0BBN8c9/T4gjl73aItA39ayGM9XTMaJxyH8ZnLYC2VjWT+0xR',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
