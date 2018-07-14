@@ -29,4 +29,14 @@ class Home extends Controller
         }
         $this->assign('menu',$menu);
     }
+
+    public function index(){
+        $res = array(
+            array('name'=>'wuwu1','age'=>21),
+            array('name'=>'wuwu2','age'=>22),
+            array('name'=>'wuwu3','age'=>23),
+            array('name'=>'wuwu4','age'=>24),
+        );
+        return json($res);
+    }
 }
