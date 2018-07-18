@@ -1,0 +1,120 @@
+---------------------------------------------------------------
+[ 2018-07-17T08:47:27+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1 [运行时间：0.399316s][吞吐率：2.50req/s] [内存消耗：1,357.14kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JvhLGVcrlwz0bCRKXVHrYH/aQAyyzd3n2FX52EH/0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg/VWnIXEl2VdjHcQ2qoAyexE+hJBzOJE/dcOuHl7fVjFBLG+11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5+2qsmNWA189ctl4578v1mzy45vX0ydNRVI/WILtD1Ntc1n+Bw+uhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45+5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc/Y9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7+C1RdohfXMcuzg7NSTpx7odT4n6/DasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ+RVBBhVd8pyiVwpZ6CNP7Ss+wrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad+bImXgqFMhLhu8O1/125kmYxXg1AJB6yYOSWywpLjYD7dA==',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-17T10:47:27+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1 [运行时间：0.063957s][吞吐率：15.64req/s] [内存消耗：1,357.21kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JvhLGVcrlwz0bCRKXVHrYH/aQAyyzd3n2FX52EH/0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg/VWnIXEl2VdjHcQ2qoAyexE+hJBzOJE/dcOuHl7fVjFBLG+11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5+2qsmNWA189ctl4578v1mzy45vX0ydNRVI/WILtD1Ntc1n+Bw+uhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45+5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc/Y9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7+C1RdohfXMcuzg7NSTpx7odT4n6/DasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ+RVBBhVd8pyiVwpZ6CNP7Ss+wrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad+bImXgqFMhLhu8O1/125kmYxXg1AJB6yYOSWywpLjYD7dA==',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-17T12:47:27+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6Jvf51RVaFXuvUt3T%2FS7Xn%2BM5n8y6cy%2Bs7Yt2i%2FL3KEjNX%2Fm8E6gCi9OorAhLcWN7I%2B0NBhAJK3sv54JNgmMvLRwtLMDjYBG5k1jNoI9tqrLISC%2FF6zg%2FyVxyebyh9VgJRTgzNUb9j2GHkUxvy8qXbawOCWw4SrK8LNwLyeWNjXlQ%2BCWKnU5I4Kx%2BSaf%2BOfGp%2FzZ3%2Bnwl0lG4VKosurDeZ0oyju%2BEv%2BObIZLvF2RHM%2FZfRR1YF1PQJQjP9ZLqyKJvADeURPk0lfiAm8PZFA%2BBYTLJVxEOMTvHmhLsWpB6J%2BuMvp%2Bdz8UWsitpu1AKo2fjkrxVYJnVKLp3EMFvwgT6ZbpcBB8s5XcKK3gOzJhPFiCuagB5Biu4W26XOj1Tu7WrLT4aFGVL8Ym0tp6pFvJKToAXFxkJhjDlc7Hxn%2BmxHw%2F1jlHVikWeH5iAJ1Kz7bKqNiyTeKE97eWQc%2F9f3r2EvsOimc4uZY%2FgXnhhmohT1U4CtJechQvLpIIVgDD85j%2B%2B5JKnzX%2BOWHG8FXC7DF%2FZIN5Y0aLGSYbvGpu4CERNEzcITHq3uPbRCoKIucrlbTaT%2F852kr%2BIY3fqjUj%2FMkbfhlIfRPitQ3Ke0X%2FZxE6NzP2%2FSCO9AgooQY1&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6Jvf51RVaFXuvUt3T%2FS7Xn%2BM5n8y6cy%2Bs7Yt2i%2FL3KEjNX%2Fm8E6gCi9OorAhLcWN7I%2B0NBhAJK3sv54JNgmMvLRwtLMDjYBG5k1jNoI9tqrLISC%2FF6zg%2FyVxyebyh9VgJRTgzNUb9j2GHkUxvy8qXbawOCWw4SrK8LNwLyeWNjXlQ%2BCWKnU5I4Kx%2BSaf%2BOfGp%2FzZ3%2Bnwl0lG4VKosurDeZ0oyju%2BEv%2BObIZLvF2RHM%2FZfRR1YF1PQJQjP9ZLqyKJvADeURPk0lfiAm8PZFA%2BBYTLJVxEOMTvHmhLsWpB6J%2BuMvp%2Bdz8UWsitpu1AKo2fjkrxVYJnVKLp3EMFvwgT6ZbpcBB8s5XcKK3gOzJhPFiCuagB5Biu4W26XOj1Tu7WrLT4aFGVL8Ym0tp6pFvJKToAXFxkJhjDlc7Hxn%2BmxHw%2F1jlHVikWeH5iAJ1Kz7bKqNiyTeKE97eWQc%2F9f3r2EvsOimc4uZY%2FgXnhhmohT1U4CtJechQvLpIIVgDD85j%2B%2B5JKnzX%2BOWHG8FXC7DF%2FZIN5Y0aLGSYbvGpu4CERNEzcITHq3uPbRCoKIucrlbTaT%2F852kr%2BIY3fqjUj%2FMkbfhlIfRPitQ3Ke0X%2FZxE6NzP2%2FSCO9AgooQY1&v=1 [运行时间：0.043885s][吞吐率：22.79req/s] [内存消耗：1,357.19kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6Jvf51RVaFXuvUt3T/S7Xn+M5n8y6cy+s7Yt2i/L3KEjNX/m8E6gCi9OorAhLcWN7I+0NBhAJK3sv54JNgmMvLRwtLMDjYBG5k1jNoI9tqrLISC/F6zg/yVxyebyh9VgJRTgzNUb9j2GHkUxvy8qXbawOCWw4SrK8LNwLyeWNjXlQ+CWKnU5I4Kx+Saf+OfGp/zZ3+nwl0lG4VKosurDeZ0oyju+Ev+ObIZLvF2RHM/ZfRR1YF1PQJQjP9ZLqyKJvADeURPk0lfiAm8PZFA+BYTLJVxEOMTvHmhLsWpB6J+uMvp+dz8UWsitpu1AKo2fjkrxVYJnVKLp3EMFvwgT6ZbpcBB8s5XcKK3gOzJhPFiCuagB5Biu4W26XOj1Tu7WrLT4aFGVL8Ym0tp6pFvJKToAXFxkJhjDlc7Hxn+mxHw/1jlHVikWeH5iAJ1Kz7bKqNiyTeKE97eWQc/9f3r2EvsOimc4uZY/gXnhhmohT1U4CtJechQvLpIIVgDD85j++5JKnzX+OWHG8FXC7DF/ZIN5Y0aLGSYbvGpu4CERNEzcITHq3uPbRCoKIucrlbTaT/852kr+IY3fqjUj/MkbfhlIfRPitQ3Ke0X/ZxE6NzP2/SCO9AgooQY1',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-17T14:47:28+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1 [运行时间：0.463331s][吞吐率：2.16req/s] [内存消耗：1,357.21kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JvhLGVcrlwz0bCRKXVHrYH/aQAyyzd3n2FX52EH/0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg/VWnIXEl2VdjHcQ2qoAyexE+hJBzOJE/dcOuHl7fVjFBLG+11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5+2qsmNWA189ctl4578v1mzy45vX0ydNRVI/WILtD1Ntc1n+Bw+uhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45+5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc/Y9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7+C1RdohfXMcuzg7NSTpx7odT4n6/DasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ+RVBBhVd8pyiVwpZ6CNP7Ss+wrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad+bImXgqFMhLhu8O1/125kmYxXg1AJB6yYOSWywpLjYD7dA==',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-17T16:47:27+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5%2B2qsmNWA189ctl4578v1mzy45vX0ydNRVI%2FWILtD1Ntc1n%2BBw%2BuhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45%2B5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc%2FY9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7%2BC1RdohfXMcuzg7NSTpx7odT4n6%2FDasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ%2BRVBBhVd8pyiVwpZ6CNP7Ss%2BwrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad%2BbImXgqFMhLhu8O1%2F125kmYxXg1AJB6yYOSWywpLjYD7dA%3D%3D&v=1 [运行时间：0.043586s][吞吐率：22.94req/s] [内存消耗：1,357.12kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JvhLGVcrlwz0bCRKXVHrYH/aQAyyzd3n2FX52EH/0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg/VWnIXEl2VdjHcQ2qoAyexE+hJBzOJE/dcOuHl7fVjFBLG+11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbBSPbwE3t6VCuTuDBVw5+2qsmNWA189ctl4578v1mzy45vX0ydNRVI/WILtD1Ntc1n+Bw+uhL611MbldBa75Cp5Dk3OrP2kAW9wupjF4BGmAhQ8od45+5HqdAW6FOJtcpHcwLTA68hAyZ9mSXFa9fqc/Y9b23EvYD4HPW75ZNtVxBWyT7sGAsNUMF9a7+C1RdohfXMcuzg7NSTpx7odT4n6/DasBMjpf84dCiOpidGFiXu74pcaArchMdgd2CQ+RVBBhVd8pyiVwpZ6CNP7Ss+wrMQ5aty59uHaVn7pgw9l2htwmijesgRkzKSD4gnbRBGj2OQ8CZWBFZMHeEZt1SsfCjhsG4xJyEllbXa5RXZ86bljrzad+bImXgqFMhLhu8O1/125kmYxXg1AJB6yYOSWywpLjYD7dA==',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File

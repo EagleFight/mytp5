@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="/index/css/css.css" rel="stylesheet">
+    <script src="/home/js/jquery-2.1.0.js"></script>
+    <script src="/index/js/jquery.mousewheel.min.js"></script>
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<section>
+    {block name="one-container"}{/block}
+
+    <div class="section">
+        {block name="section"}
+        <div style="height: 200px;display: block;">1111</div>
+        <div style="height: 200px;display: block;">1111</div>
+        <div style="height: 200px;display: block;">1111</div>
+        <div style="height: 200px;display: block;">1111</div>
+        <div style="height: 200px;display: block;">1111</div>
+        <div style="height: 200px;display: block;">1111</div>
+        <div style="height: 200px;display: block;">1111</div>
+        <div style="height: 200px;display: block;">1111</div>
+    </div>
+</section>
+<script>
+    var browserWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    if(browserWidth>1240){
+        $('section>div').css('padding','0 '+(browserWidth-1200)/2+'px');
+    }
+</script>
+{block name="script"}{/block}
+</body>
+</html>
