@@ -16,7 +16,8 @@ section>div{position: relative;display: block;height: 100%;background-position: 
 /*
 **官网首页样式
  */
-.header-page{  background:url('../image/login_bg.jpg') no-repeat;background-size:100% 100%;overflow: auto;}
+.header-page{  background:url('../image/beijing.png') no-repeat;background-size:100% 100%;overflow: auto;}
+.header-page .small-logo img{height: auto;width: 620px;margin-top: 25px;}
 .header-page p{width: 100%;text-align: center;}
 .header-page p.title-cn{height: 80px;line-height: 80px;font-size: 44px;width: 420px;letter-spacing:3px;margin: 0 auto;color: rgb(80,80,80);font-weight: 300;border-bottom: 1px solid rgb(80,80,80);}
 .header-page p.title-cn span{margin: 0 5px;}
@@ -26,9 +27,9 @@ section>div{position: relative;display: block;height: 100%;background-position: 
     background: -moz-linear-gradient(right, rgb(1,72,101),rgb(40,159,152), rgb(0,0,0));
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;}
-.header-page p.type{color: rgb(112,112,112);font-size: 16px;margin-top: 5px;}
+.header-page p.type{color: rgb(112,112,112);font-size: 18px;margin-top: 10px;}
 .header-page p.type span{margin: 0 6px;}
-.header-page ul{padding: 0 20px;}
+.header-page ul{padding: 0 20px;margin-top: 45px;}
 .header-page li{display: block;float: left;width: 260px;height: 106px;margin-right: 40px;}
 .header-page li:last-child{margin-right: 0;}
 .header-page li a{color: white;height: 100%;}
@@ -37,5 +38,7 @@ section>div{position: relative;display: block;height: 100%;background-position: 
 .home-bg-color{background-color: rgb(65,205,190);}
 .steward-bg-color{background-color: rgb(67,222,172);}
 .recruit-bg-color{background-color: rgb(254,142,50);}
+.us>div>p{margin: 0;height: 5px;line-height:5px;color: rgb(65,205,190);text-align: center;margin: 4px 0;}
+
 
 .section{  background-color:  yellow;}

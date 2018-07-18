@@ -1,0 +1,1213 @@
+---------------------------------------------------------------
+[ 2018-07-08T09:14:53+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JsOyjbMVacu2l0BpYX%2FPth%2BM8v0o8zLNmO4VS4gFTQhI%2FFU9F%2FknRJQngaGgy85nOtG6%2FtoDHHvm%2FF%2Fa1DgAXQQOT7IpS7eSxKfQWAAfA4x1wmtZS3i9Ij8GUGvBrKHKH5b2M4iGA8PvvGx2GEYgHyi8qGndKYalTUQroZQiEH6kZqN2KKJWpK6rTgxRU%2BZW6L93xR3f6DMfYw7Lg3Q5o3f5mVSE7OiLQ4KPKTiJl%2F7SJCmVt4jBL6JKF%2FSfGAdd18IfYBXFDLEqZEDwugYvuPc5z4U7qnKCNLgRpQnntyUhhfy8VGWSA07FpxCAgJ2CWvpwupbnXRGOMu2jL1EXdcyEII6imjlB9J2fbleeM%2BPHQJAob3yiS5Dt7nRk5TvUkmTCIYz5%2BkJg0itDkJd%2FaLxSwTdcLUjGJLU1OSrklCedFxUYqGn91OO5iK7zGd%2F3uzmbV6nsRLa%2Fiflw58XRXRBGXRQZ%2BsCRGkQduv8Dr3nprEp8V06lQTNrs3QFdtbPPuV7cO0Ul69PcHXM%2Bj%2FvE9fCIZMl9WCpUcrpIXHZzAwiesH9KleslMt78dY4I7oTXIM7cSdrXdZN%2FjauRHp61F7B7MkC3RoJUbjseRulJVXYcGKmVHtjkOL&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JsOyjbMVacu2l0BpYX%2FPth%2BM8v0o8zLNmO4VS4gFTQhI%2FFU9F%2FknRJQngaGgy85nOtG6%2FtoDHHvm%2FF%2Fa1DgAXQQOT7IpS7eSxKfQWAAfA4x1wmtZS3i9Ij8GUGvBrKHKH5b2M4iGA8PvvGx2GEYgHyi8qGndKYalTUQroZQiEH6kZqN2KKJWpK6rTgxRU%2BZW6L93xR3f6DMfYw7Lg3Q5o3f5mVSE7OiLQ4KPKTiJl%2F7SJCmVt4jBL6JKF%2FSfGAdd18IfYBXFDLEqZEDwugYvuPc5z4U7qnKCNLgRpQnntyUhhfy8VGWSA07FpxCAgJ2CWvpwupbnXRGOMu2jL1EXdcyEII6imjlB9J2fbleeM%2BPHQJAob3yiS5Dt7nRk5TvUkmTCIYz5%2BkJg0itDkJd%2FaLxSwTdcLUjGJLU1OSrklCedFxUYqGn91OO5iK7zGd%2F3uzmbV6nsRLa%2Fiflw58XRXRBGXRQZ%2BsCRGkQduv8Dr3nprEp8V06lQTNrs3QFdtbPPuV7cO0Ul69PcHXM%2Bj%2FvE9fCIZMl9WCpUcrpIXHZzAwiesH9KleslMt78dY4I7oTXIM7cSdrXdZN%2FjauRHp61F7B7MkC3RoJUbjseRulJVXYcGKmVHtjkOL&v=1 [运行时间：0.419073s][吞吐率：2.39req/s] [内存消耗：1,357.13kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JsOyjbMVacu2l0BpYX/Pth+M8v0o8zLNmO4VS4gFTQhI/FU9F/knRJQngaGgy85nOtG6/toDHHvm/F/a1DgAXQQOT7IpS7eSxKfQWAAfA4x1wmtZS3i9Ij8GUGvBrKHKH5b2M4iGA8PvvGx2GEYgHyi8qGndKYalTUQroZQiEH6kZqN2KKJWpK6rTgxRU+ZW6L93xR3f6DMfYw7Lg3Q5o3f5mVSE7OiLQ4KPKTiJl/7SJCmVt4jBL6JKF/SfGAdd18IfYBXFDLEqZEDwugYvuPc5z4U7qnKCNLgRpQnntyUhhfy8VGWSA07FpxCAgJ2CWvpwupbnXRGOMu2jL1EXdcyEII6imjlB9J2fbleeM+PHQJAob3yiS5Dt7nRk5TvUkmTCIYz5+kJg0itDkJd/aLxSwTdcLUjGJLU1OSrklCedFxUYqGn91OO5iK7zGd/3uzmbV6nsRLa/iflw58XRXRBGXRQZ+sCRGkQduv8Dr3nprEp8V06lQTNrs3QFdtbPPuV7cO0Ul69PcHXM+j/vE9fCIZMl9WCpUcrpIXHZzAwiesH9KleslMt78dY4I7oTXIM7cSdrXdZN/jauRHp61F7B7MkC3RoJUbjseRulJVXYcGKmVHtjkOL',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T09:22:51+08:00 ] 127.0.0.1 GET /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.170791s][吞吐率：5.86req/s] [内存消耗：1,563.16kb] [文件加载：41]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T09:22:51+08:00 ] 127.0.0.1 GET /Login.css
+[ info ] rmg68k.natappfree.cc/Login.css [运行时间：0.039555s][吞吐率：25.28req/s] [内存消耗：1,355.82kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Login.css',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T09:31:14+08:00 ] 127.0.0.1 GET /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.157256s][吞吐率：6.36req/s] [内存消耗：1,704.53kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T09:31:14+08:00 ] 127.0.0.1 GET /Login.css
+[ info ] rmg68k.natappfree.cc/Login.css [运行时间：0.031936s][吞吐率：31.31req/s] [内存消耗：1,356.23kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Login.css',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T09:32:15+08:00 ] 127.0.0.1 GET /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.047588s][吞吐率：21.01req/s] [内存消耗：1,704.53kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T09:32:15+08:00 ] 127.0.0.1 GET /Login.css
+[ info ] rmg68k.natappfree.cc/Login.css [运行时间：0.044237s][吞吐率：22.61req/s] [内存消耗：1,356.23kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Login.css',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T09:32:31+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.034015s][吞吐率：29.40req/s] [内存消耗：1,563.91kb] [文件加载：41]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T09:32:31+08:00 ] 127.0.0.1 GET /Login.css
+[ info ] rmg68k.natappfree.cc/Login.css [运行时间：0.029350s][吞吐率：34.07req/s] [内存消耗：1,355.82kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Login.css',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T09:33:06+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.047533s][吞吐率：21.04req/s] [内存消耗：1,705.05kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T09:33:06+08:00 ] 127.0.0.1 GET /Login.css
+[ info ] rmg68k.natappfree.cc/Login.css [运行时间：0.037691s][吞吐率：26.53req/s] [内存消耗：1,356.23kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Login.css',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T09:40:02+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.074966s][吞吐率：13.34req/s] [内存消耗：1,705.06kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T09:40:02+08:00 ] 127.0.0.1 GET /Login.css
+[ info ] rmg68k.natappfree.cc/Login.css [运行时间：0.043925s][吞吐率：22.77req/s] [内存消耗：1,356.23kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Login.css',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T10:49:31+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.090829s][吞吐率：11.01req/s] [内存消耗：1,701.93kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T10:49:33+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.018372s][吞吐率：54.43req/s] [内存消耗：1,564.13kb] [文件加载：41]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:07:04+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.064441s][吞吐率：15.52req/s] [内存消耗：1,704.69kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:07:09+08:00 ] 127.0.0.1 GET /home/fonts/mui.ttf
+[ info ] rmg68k.natappfree.cc/home/fonts/mui.ttf [运行时间：0.139987s][吞吐率：7.14req/s] [内存消耗：1,363.17kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'fonts',
+    2 => 'mui.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/home/css/mui.min.css',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:07:22+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.041898s][吞吐率：23.87req/s] [内存消耗：1,564.72kb] [文件加载：41]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:07:22+08:00 ] 127.0.0.1 GET /home/fonts/mui.ttf
+[ info ] rmg68k.natappfree.cc/home/fonts/mui.ttf [运行时间：0.050523s][吞吐率：19.79req/s] [内存消耗：1,362.71kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'fonts',
+    2 => 'mui.ttf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'referer' => 'http://rmg68k.natappfree.cc/home/css/mui.min.css',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:08:19+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.033613s][吞吐率：29.75req/s] [内存消耗：1,564.72kb] [文件加载：41]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:09:24+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.046626s][吞吐率：21.45req/s] [内存消耗：1,704.84kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:09:43+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.035387s][吞吐率：28.26req/s] [内存消耗：1,564.71kb] [文件加载：41]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:10:17+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.018345s][吞吐率：54.51req/s] [内存消耗：1,564.71kb] [文件加载：41]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:10:56+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.026967s][吞吐率：37.08req/s] [内存消耗：1,704.84kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:12:16+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.029414s][吞吐率：34.00req/s] [内存消耗：1,564.71kb] [文件加载：41]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:12:44+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.049215s][吞吐率：20.32req/s] [内存消耗：1,564.71kb] [文件加载：41]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:13:33+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.027926s][吞吐率：35.81req/s] [内存消耗：1,704.89kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:14:53+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIaTceD6TKLx5bGBmEMClfpMZ8ie8TP6gT5%2BL%2Bc55nw%2BSVdQ18i2u70KiGg1RFKJ26VAQpGwD1PcudJy%2FJPze2st2t5RId%2FKDrPnX7xzYe8qjj4ywRUPb9J%2B2%2BK7hmSDHu3%2BsLilR8Ek6HoQsBNBMMQ61zfhcMaeMUAu0ffcv9pFvW6bavyKEkfXj1aCL8jQykMciBwVSthZhLfGcv9xUSiIPWDiWOZH%2Bpr2jtQHVDdg5YjmurRdKLzoF5pIMC1EXgrBz6r%2BSp6o4aL7Iy%2B5zy1fS%2FkecJQju%2B8iOzP8aJlvwpLqZS1hZ4FaV58EJqwgpFQjDplIZE1d8NOzD4L1demgvivSOM6Xjq2odjX3VSJNrTCCI4QSm5ISu0gzQb%2FSR3E%2F421%2FKatRg5%2Fp%2Fipt0Fa2QBeOOC%2FWX5A%3D%3D&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIaTceD6TKLx5bGBmEMClfpMZ8ie8TP6gT5%2BL%2Bc55nw%2BSVdQ18i2u70KiGg1RFKJ26VAQpGwD1PcudJy%2FJPze2st2t5RId%2FKDrPnX7xzYe8qjj4ywRUPb9J%2B2%2BK7hmSDHu3%2BsLilR8Ek6HoQsBNBMMQ61zfhcMaeMUAu0ffcv9pFvW6bavyKEkfXj1aCL8jQykMciBwVSthZhLfGcv9xUSiIPWDiWOZH%2Bpr2jtQHVDdg5YjmurRdKLzoF5pIMC1EXgrBz6r%2BSp6o4aL7Iy%2B5zy1fS%2FkecJQju%2B8iOzP8aJlvwpLqZS1hZ4FaV58EJqwgpFQjDplIZE1d8NOzD4L1demgvivSOM6Xjq2odjX3VSJNrTCCI4QSm5ISu0gzQb%2FSR3E%2F421%2FKatRg5%2Fp%2Fipt0Fa2QBeOOC%2FWX5A%3D%3D&v=1 [运行时间：0.064730s][吞吐率：15.45req/s] [内存消耗：1,357.18kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JvhLGVcrlwz0bCRKXVHrYH/aQAyyzd3n2FX52EH/0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg/VWnIXEl2VdjHcQ2qoAyexE+hJBzOJE/dcOuHl7fVjFBLG+11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIaTceD6TKLx5bGBmEMClfpMZ8ie8TP6gT5+L+c55nw+SVdQ18i2u70KiGg1RFKJ26VAQpGwD1PcudJy/JPze2st2t5RId/KDrPnX7xzYe8qjj4ywRUPb9J+2+K7hmSDHu3+sLilR8Ek6HoQsBNBMMQ61zfhcMaeMUAu0ffcv9pFvW6bavyKEkfXj1aCL8jQykMciBwVSthZhLfGcv9xUSiIPWDiWOZH+pr2jtQHVDdg5YjmurRdKLzoF5pIMC1EXgrBz6r+Sp6o4aL7Iy+5zy1fS/kecJQju+8iOzP8aJlvwpLqZS1hZ4FaV58EJqwgpFQjDplIZE1d8NOzD4L1demgvivSOM6Xjq2odjX3VSJNrTCCI4QSm5ISu0gzQb/SR3E/421/KatRg5/p/ipt0Fa2QBeOOC/WX5A==',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:15:01+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.052495s][吞吐率：19.05req/s] [内存消耗：1,705.08kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:21:59+08:00 ] 127.0.0.1 POST /
+[ info ] rmg68k.natappfree.cc/ [运行时间：0.038129s][吞吐率：26.23req/s] [内存消耗：1,705.09kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'rmg68k.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-length' => '7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://rmg68k.natappfree.cc',
+  'pragma' => 'no-cache',
+  'referer' => 'http://rmg68k.natappfree.cc/',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+  'u' => 'd',
+  'p' => 's',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:35:24+08:00 ] 127.0.0.1 GET /
+[ info ] w72pzf.natappfree.cc/ [运行时间：0.059864s][吞吐率：16.70req/s] [内存消耗：1,704.05kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w72pzf.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:48:24+08:00 ] 127.0.0.1 GET /
+[ info ] w72pzf.natappfree.cc/ [运行时间：0.069987s][吞吐率：14.29req/s] [内存消耗：1,704.79kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w72pzf.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T11:48:38+08:00 ] 127.0.0.1 GET /
+[ info ] w72pzf.natappfree.cc/ [运行时间：0.047739s][吞吐率：20.95req/s] [内存消耗：1,704.53kb] [文件加载：43]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w72pzf.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T13:14:53+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JvU8qpIW5GCdJ00ZrHZXQkWRz0n2M0gETkabHVatfjjVV1kc8XFB6RS6jWH51JjrbKn8j3WZ8sKjZld9hNjtq2OFNzuI3Mc8dw4UTHESIltd1vaeBnjcDTY3SfHgxFJlL4M1%2BOM1m5CMXrYK6I20ps%2BjApT7TOX7MusGJPP9XoY6k8d3wyxGwH%2BC3kBdBVHQxocoJ3UpmRFkL3Sd1dAeXOI3AP6FAyoaZpEISJ5dQo8iGQoAmNRiGLzG6LCeMkJAd7W%2FbVQtR2sHkJtaHQtq6%2ByomR3AHPPLpjZm6z5HGHq4wxbIBRN7ryoIIZWYkppjBHsa75EGQGIiR0EGgPk78Rb%2BRSTa%2BkS09YV%2F75Ubs5kQuSIL0khqqgvn%2FgSj3RPvN%2BhN7ilJIOHl8cduGaJUfPru0QsMBbBu0wyTof4aHxKR0LZdXhR1rOjBRef%2Bby%2F718HJUab%2FPxbuh1AMv0N1CI%2BBxVCtu3VUFO3Si3zyruGXJNIp%2Bq4QHXUcws%2FvJwsU3%2B7GmnDvwcVPX1wRv2NuEyt%2Bf9ImhRwgG6vkC%2FUEveiNQKVwuXvNKEV9lGpG5ZcXdHADssi5Q65M5qt0FeZD%2BjBew8%2B6s4E4Xig4y4h301dP%2FszsF5Y4E7W&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JvU8qpIW5GCdJ00ZrHZXQkWRz0n2M0gETkabHVatfjjVV1kc8XFB6RS6jWH51JjrbKn8j3WZ8sKjZld9hNjtq2OFNzuI3Mc8dw4UTHESIltd1vaeBnjcDTY3SfHgxFJlL4M1%2BOM1m5CMXrYK6I20ps%2BjApT7TOX7MusGJPP9XoY6k8d3wyxGwH%2BC3kBdBVHQxocoJ3UpmRFkL3Sd1dAeXOI3AP6FAyoaZpEISJ5dQo8iGQoAmNRiGLzG6LCeMkJAd7W%2FbVQtR2sHkJtaHQtq6%2ByomR3AHPPLpjZm6z5HGHq4wxbIBRN7ryoIIZWYkppjBHsa75EGQGIiR0EGgPk78Rb%2BRSTa%2BkS09YV%2F75Ubs5kQuSIL0khqqgvn%2FgSj3RPvN%2BhN7ilJIOHl8cduGaJUfPru0QsMBbBu0wyTof4aHxKR0LZdXhR1rOjBRef%2Bby%2F718HJUab%2FPxbuh1AMv0N1CI%2BBxVCtu3VUFO3Si3zyruGXJNIp%2Bq4QHXUcws%2FvJwsU3%2B7GmnDvwcVPX1wRv2NuEyt%2Bf9ImhRwgG6vkC%2FUEveiNQKVwuXvNKEV9lGpG5ZcXdHADssi5Q65M5qt0FeZD%2BjBew8%2B6s4E4Xig4y4h301dP%2FszsF5Y4E7W&v=1 [运行时间：0.430912s][吞吐率：2.32req/s] [内存消耗：1,357.16kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JvU8qpIW5GCdJ00ZrHZXQkWRz0n2M0gETkabHVatfjjVV1kc8XFB6RS6jWH51JjrbKn8j3WZ8sKjZld9hNjtq2OFNzuI3Mc8dw4UTHESIltd1vaeBnjcDTY3SfHgxFJlL4M1+OM1m5CMXrYK6I20ps+jApT7TOX7MusGJPP9XoY6k8d3wyxGwH+C3kBdBVHQxocoJ3UpmRFkL3Sd1dAeXOI3AP6FAyoaZpEISJ5dQo8iGQoAmNRiGLzG6LCeMkJAd7W/bVQtR2sHkJtaHQtq6+yomR3AHPPLpjZm6z5HGHq4wxbIBRN7ryoIIZWYkppjBHsa75EGQGIiR0EGgPk78Rb+RSTa+kS09YV/75Ubs5kQuSIL0khqqgvn/gSj3RPvN+hN7ilJIOHl8cduGaJUfPru0QsMBbBu0wyTof4aHxKR0LZdXhR1rOjBRef+by/718HJUab/Pxbuh1AMv0N1CI+BxVCtu3VUFO3Si3zyruGXJNIp+q4QHXUcws/vJwsU3+7GmnDvwcVPX1wRv2NuEyt+f9ImhRwgG6vkC/UEveiNQKVwuXvNKEV9lGpG5ZcXdHADssi5Q65M5qt0FeZD+jBew8+6s4E4Xig4y4h301dP/szsF5Y4E7W',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T13:44:23+08:00 ] 127.0.0.1 GET /
+[ info ] w72pzf.natappfree.cc/ [运行时间：0.226930s][吞吐率：4.41req/s] [内存消耗：1,564.16kb] [文件加载：41]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w72pzf.natappfree.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'x-natapp-ip' => '119.6.58.10',
+  'x-real-ip' => '119.6.58.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T15:14:53+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIaTceD6TKLx5bGBmEMClfpMZ8ie8TP6gT5%2BL%2Bc55nw%2BSVdQ18i2u70KiGg1RFKJ26VAQpGwD1PcudJy%2FJPze2st2t5RId%2FKDrPnX7xzYe8qjj4ywRUPb9J%2B2%2BK7hmSDHu3%2BsLilR8Ek6HoQsBNBMMQ61zfhcMaeMUAu0ffcv9pFvW6bavyKEkfXj1aCL8jQykMciBwVSthZhLfGcv9xUSiIPWDiWOZH%2Bpr2jtQHVDdg5YjmurRdKLzoF5pIMC1EXgrBz6r%2BSp6o4aL7Iy%2B5zy1fS%2FkecJQju%2B8iOzP8aJlvwpLqZS1hZ4FaV58EJqwgpFQjDplIZE1d8NOzD4L1demgvivSOM6Xjq2odjX3VSJNrTCCI4QSm5ISu0gzQb%2FSR3E%2F421%2FKatRg5%2Fp%2Fipt0Fa2QBeOOC%2FWX5A%3D%3D&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIaTceD6TKLx5bGBmEMClfpMZ8ie8TP6gT5%2BL%2Bc55nw%2BSVdQ18i2u70KiGg1RFKJ26VAQpGwD1PcudJy%2FJPze2st2t5RId%2FKDrPnX7xzYe8qjj4ywRUPb9J%2B2%2BK7hmSDHu3%2BsLilR8Ek6HoQsBNBMMQ61zfhcMaeMUAu0ffcv9pFvW6bavyKEkfXj1aCL8jQykMciBwVSthZhLfGcv9xUSiIPWDiWOZH%2Bpr2jtQHVDdg5YjmurRdKLzoF5pIMC1EXgrBz6r%2BSp6o4aL7Iy%2B5zy1fS%2FkecJQju%2B8iOzP8aJlvwpLqZS1hZ4FaV58EJqwgpFQjDplIZE1d8NOzD4L1demgvivSOM6Xjq2odjX3VSJNrTCCI4QSm5ISu0gzQb%2FSR3E%2F421%2FKatRg5%2Fp%2Fipt0Fa2QBeOOC%2FWX5A%3D%3D&v=1 [运行时间：0.028423s][吞吐率：35.18req/s] [内存消耗：1,357.18kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JvhLGVcrlwz0bCRKXVHrYH/aQAyyzd3n2FX52EH/0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg/VWnIXEl2VdjHcQ2qoAyexE+hJBzOJE/dcOuHl7fVjFBLG+11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIaTceD6TKLx5bGBmEMClfpMZ8ie8TP6gT5+L+c55nw+SVdQ18i2u70KiGg1RFKJ26VAQpGwD1PcudJy/JPze2st2t5RId/KDrPnX7xzYe8qjj4ywRUPb9J+2+K7hmSDHu3+sLilR8Ek6HoQsBNBMMQ61zfhcMaeMUAu0ffcv9pFvW6bavyKEkfXj1aCL8jQykMciBwVSthZhLfGcv9xUSiIPWDiWOZH+pr2jtQHVDdg5YjmurRdKLzoF5pIMC1EXgrBz6r+Sp6o4aL7Iy+5zy1fS/kecJQju+8iOzP8aJlvwpLqZS1hZ4FaV58EJqwgpFQjDplIZE1d8NOzD4L1demgvivSOM6Xjq2odjX3VSJNrTCCI4QSm5ISu0gzQb/SR3E/421/KatRg5/p/ipt0Fa2QBeOOC/WX5A==',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-08T17:14:54+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JtDUtQ8jDwfpXZTPbALQeZN23jZwDGt3HL0xeUCwEyu47AqIxi%2BKsHlaJan%2B1mWlYjY4dQXfNGYAZib4F87qAsIRXrjdqM7Z6aHwSMbFTSEuNT0oprqFqS6aldDK9aQbm5Svbh9m1PaRnStRRIskBrtUL5N3cg7S3xnYBuG%2FQ%2FsYnLYnSe28zu5LgRiW5C0x%2BLemAjaaSwb6VXiCIVL8w7aewBBxUosLk1tyGYkIRby28BFggrOUxWvhIpFBjDE9wb601nzOq4TWTSJGTG2jiJpfS04OO9%2F1HprIBqaejz3gu7Spyvwefk%2BGuJTHNmQBHzOTiSNFn4jXHgLCpl5Ng0%2BnWjovmTE7IID5WVTw7bR7bBvKU%2FuO8R0wR0%2BoFkHNK07FwvkHq7qfODFoZDnEyWxnhID5VM4ddNgFm8FNY5nr6qj%2F3kRqf3RQijTr64Io9umiL9nMToaA6bgaBuvHPYyfUWH8fSzXq%2Fy0w209XOcoOeLk9eiR1q3L%2B5b2lKb09HMNX3%2F2DdhSRNzjNE756lBnRogXv1FJ4jpvYWpZDlTu0VEGe5u%2FWIIJMBzqV5ZYvO8Yhf7CrTTydih6Ic3W91SkkW7hzxa01Uoas%2BPnkYqIlB7R1tDaEj6&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JtDUtQ8jDwfpXZTPbALQeZN23jZwDGt3HL0xeUCwEyu47AqIxi%2BKsHlaJan%2B1mWlYjY4dQXfNGYAZib4F87qAsIRXrjdqM7Z6aHwSMbFTSEuNT0oprqFqS6aldDK9aQbm5Svbh9m1PaRnStRRIskBrtUL5N3cg7S3xnYBuG%2FQ%2FsYnLYnSe28zu5LgRiW5C0x%2BLemAjaaSwb6VXiCIVL8w7aewBBxUosLk1tyGYkIRby28BFggrOUxWvhIpFBjDE9wb601nzOq4TWTSJGTG2jiJpfS04OO9%2F1HprIBqaejz3gu7Spyvwefk%2BGuJTHNmQBHzOTiSNFn4jXHgLCpl5Ng0%2BnWjovmTE7IID5WVTw7bR7bBvKU%2FuO8R0wR0%2BoFkHNK07FwvkHq7qfODFoZDnEyWxnhID5VM4ddNgFm8FNY5nr6qj%2F3kRqf3RQijTr64Io9umiL9nMToaA6bgaBuvHPYyfUWH8fSzXq%2Fy0w209XOcoOeLk9eiR1q3L%2B5b2lKb09HMNX3%2F2DdhSRNzjNE756lBnRogXv1FJ4jpvYWpZDlTu0VEGe5u%2FWIIJMBzqV5ZYvO8Yhf7CrTTydih6Ic3W91SkkW7hzxa01Uoas%2BPnkYqIlB7R1tDaEj6&v=1 [运行时间：0.372614s][吞吐率：2.68req/s] [内存消耗：1,357.19kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JtDUtQ8jDwfpXZTPbALQeZN23jZwDGt3HL0xeUCwEyu47AqIxi+KsHlaJan+1mWlYjY4dQXfNGYAZib4F87qAsIRXrjdqM7Z6aHwSMbFTSEuNT0oprqFqS6aldDK9aQbm5Svbh9m1PaRnStRRIskBrtUL5N3cg7S3xnYBuG/Q/sYnLYnSe28zu5LgRiW5C0x+LemAjaaSwb6VXiCIVL8w7aewBBxUosLk1tyGYkIRby28BFggrOUxWvhIpFBjDE9wb601nzOq4TWTSJGTG2jiJpfS04OO9/1HprIBqaejz3gu7Spyvwefk+GuJTHNmQBHzOTiSNFn4jXHgLCpl5Ng0+nWjovmTE7IID5WVTw7bR7bBvKU/uO8R0wR0+oFkHNK07FwvkHq7qfODFoZDnEyWxnhID5VM4ddNgFm8FNY5nr6qj/3kRqf3RQijTr64Io9umiL9nMToaA6bgaBuvHPYyfUWH8fSzXq/y0w209XOcoOeLk9eiR1q3L+5b2lKb09HMNX3/2DdhSRNzjNE756lBnRogXv1FJ4jpvYWpZDlTu0VEGe5u/WIIJMBzqV5ZYvO8Yhf7CrTTydih6Ic3W91SkkW7hzxa01Uoas+PnkYqIlB7R1tDaEj6',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
