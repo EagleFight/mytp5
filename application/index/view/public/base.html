@@ -5,6 +5,7 @@
     <link href="/index/css/css.css" rel="stylesheet">
     <script src="/home/js/jquery-2.1.0.js"></script>
     <script src="/index/js/jquery.mousewheel.min.js"></script>
+    {block name="ref"}{/block}
     <title>Title</title>
     <style>
 
@@ -27,11 +28,21 @@
             </div>
         </div>
         {block name="section"}{/block}
+        <footer class="foot">
+            <!--<a href="javascript:void(0)" class="btn_top" id="rMenuCont" title="返回顶部" style="display: inline;"></a>-->
+            <div class="foot-size">
+                <div class="eym">
+                    <img src="/index/image/weixing.png">
+                    <p>护士家园</p>
+                </div>
+                <img class="foot-logo" src="/index/image/foot-logo.png">
+                <img class="foot-logo" src="/index/image/foot-size.png">
+                <p>护博医疗版权所有 © 1997-2017</p>
+                <p>京ICP备12025925号 京ICP证010207号</p>
+            </div>
+        </footer>
     </div>
 </section>
-<footer>
-
-</footer>
 <script>
     var browserWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     if(browserWidth>1240){
