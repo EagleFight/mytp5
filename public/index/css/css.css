@@ -3,21 +3,22 @@
 
 html, body {width: 100%;height: 100%;overflow: hidden;}
 body{padding: 0;margin: 0;display: block;}
-ul,li{list-style: none;}
+ul,li{list-style: none;margin: 0;}
 a{text-decoration: none;display: block;cursor: pointer;}
+p{margin: 0;}
 /**去浮动**/
 .clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 
 
-section{width: 100%;height: 100%;overflow: visible;transition: transform 1s cubic-bezier(0.86,0,0.03,1);-webkit-transition: -webkit-transform 1s cubic-bezier(0.86,0,0.03,1);display: block;}
+section{width: 100%;height: 100%;overflow: hidden;position:relative;transition: transform 1s cubic-bezier(0.86,0,0.03,1);-webkit-transition: -webkit-transform 1s cubic-bezier(0.86,0,0.03,1);display: block;}
 section>div{position: relative;display: block;height: 100%;background-position: center center;background-repeat: no-repeat;text-align: center;}
 /*
 **官网首页样式
  */
 .header-page{  background:url('../image/beijing.png') no-repeat;background-size:100% 100%;overflow: auto;}
-.header-page .small-logo img{height: auto;width: 620px;margin-top: 25px;}
+.header-page .small-logo img{height: auto;width: 600px;margin-top: 25px;}
 .header-page p{width: 100%;text-align: center;}
 .header-page p.title-cn{height: 80px;line-height: 80px;font-size: 44px;width: 420px;letter-spacing:3px;margin: 0 auto;color: rgb(80,80,80);font-weight: 300;border-bottom: 1px solid rgb(80,80,80);}
 .header-page p.title-cn span{margin: 0 5px;}
@@ -38,7 +39,41 @@ section>div{position: relative;display: block;height: 100%;background-position: 
 .home-bg-color{background-color: rgb(65,205,190);}
 .steward-bg-color{background-color: rgb(67,222,172);}
 .recruit-bg-color{background-color: rgb(254,142,50);}
+.us{margin-top: 40px;font-size: 24px;color: rgb(74,74,74);font-weight: 300;}
 .us>div>p{margin: 0;height: 5px;line-height:5px;color: rgb(65,205,190);text-align: center;margin: 4px 0;}
+.us>div>img{cursor: pointer;}
 
 
-.section{  background-color:  yellow;}
+.section{overflow-x: hidden;overflow-y: auto;}
+.section>div{width: 1200px;}
+.section>div>div{width: 1200px;text-align: center;position: relative;}
+.head{position: fixed;width: 1200px;}
+.head .logo{background: url("../image/logo.png") no-repeat center;background-size:180px;height:80px;display: block;height: 80px;width: 180px;float: left;}
+.head .nav{float: right;}
+.head .nav li{float: left;height: 80px;line-height: 80px;}
+.head li a{color: rgb(51,51,51);padding: 0 30px;font-size: 20px;}
+.head li a:hover{color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);}
+.com-intro{background: url('../image/jianjiebeijing.png') no-repeat;background-size: cover;width: 100%;height: 630px;position: relative;text-align: center;}
+.com-intro .color-block{position: absolute;margin:auto;left: 0;right: 0;top: 0;background-color: rgb(45,166,155);width: 100px;height: 35px;}
+.com-intro .title-img img{width: 194px;height: 96px;margin-top: 85px;}
+.com-intro .content{height: 320px;margin-top: 80px;}
+.com-intro .content div{float: left;width: 50%;}
+.com-intro .content img{width: 528px;height: 320px;}
+.com-intro .right-word{text-align: left;}
+.com-intro .right-word p{font-size: 18px;color: rgb(73,73,73);text-align: left;margin-top: 0;margin-bottom: 48px;line-height: 28px;padding-left: 40px;}
+.com-intro .right-word p.com-title{margin-bottom: 0;}
+.new-exp{height: 385px;text-align: center;padding-top: 65px;}
+.new-exp>p{color:rgb(45,166,155);font-size: 36px;font-weight: 300;}
+.new-exp .clearfix{width: 836px;height:230px;margin: 0 auto;margin-top: 75px;}
+.new-exp .clearfix>div{float: left;width: 209px;height: 230px;}
+.new-exp .clearfix .word-cn{font-size: 26px;color: rgb(51,51,51);font-weight: 300;margin-bottom: 0;margin-top: 25px;}
+.new-exp .clearfix .word-en{margin-top:8px;font-size: 18px;font-weight: 400;background-color: rgb(45,166,155);height: 26px;line-height: 26px;color: white;display: inline-block;padding: 0 15px;font-weight: 600;}
+.com-culture{width: 100%;height: 680px;background: url('../image/dian-bg.png') no-repeat;background-size: cover;padding-top: 40px;}
+.com-culture .item{margin-top: 40px;}
+.culture-title{height: 34px;line-height: 34px;color: rgb(45,166,155);font-size: 34px;font-weight: 300;margin-top: 0;}
+.line-word{position: relative;height: 40px;line-height: 40px;padding-top: 19.5px;width: 460px !important;margin: 0 auto;margin-bottom: 35px;}
+.line-word div{float: left;}
+.line-word .line{height: 1px;background-color: rgb(138,138,138);width: 450px;margin: 0 auto;width: 100px;margin-top: 19.5px;}
+.line-word .word{width: 260px;height: 40px;line-height: 40px;font-size: 24px;color: rgb(138,138,138);font-weight: 300;text-align: center;}
+.line-word .no-line{float: none !important;margin: 0 auto !important; width: 460px !important;}
+.worthy .worth-item{width: 275px;height: 140px;background-color: white;float: left;margin-left: 20px;margin-top: 40px;}

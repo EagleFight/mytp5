@@ -45,22 +45,102 @@
         </div>
     </div>
 {/block}
-{block name=""}
+
+{block name="section"}
+    <div class="com-intro">
+        <div class="title-img">
+            <img src="/index/image/biaoti.png">
+            <div class="color-block"></div>
+        </div>
+        <div class="content clearfix">
+            <div class="left-img">
+                <img src="/index/image/tupian.png">
+            </div>
+            <div class="right-word">
+                <p class="com-title">四川护博医疗科技有限公司</p>
+                <p>是一家专注于高端健康医疗护理的国际化服务机构</p>
+                <p>我司秉承着以健康为源构建生活新生态，引领健康产业创新发展的价值理念，以国际化视野把高端、前沿、专业的健康服务引入本土，
+                    运用“互联网+健康”概念，搭建现代化智能服务平台，通过O2O生态闭环模式进行多远健康服务，
+                </p>
+                <p>旨在缔造与时代共生的健康服务品牌文化你，全方位满足高端医疗需求，提供尊贵级品质服务，带动全域化健康成长活力升级。</p>
+            </div>
+        </div>
+    </div>
+    <div class="new-exp">
+        <p>为一位用户带来健康至尊体验</p>
+        <div class="clearfix">
+            <div>
+                <img src="/index/image/computer.png">
+                <p class="word-cn">互联网+实体机构</p>
+                <p class="word-en">I+E</p>
+            </div>
+            <div>
+                <img src="/index/image/zhuanye.png">
+                <p class="word-cn">专业人员</p>
+                <p class="word-en">PRO</p>
+            </div>
+            <div>
+                <img src="/index/image/new.png">
+                <p class="word-cn">全新模式</p>
+                <p class="word-en">NEW</p>
+            </div>
+            <div>
+                <img src="/index/image/gaodun.png">
+                <p class="word-cn">高端享受</p>
+                <p class="word-en">ENJOY</p>
+            </div>
+        </div>
+    </div>
+    <div class="com-culture">
+        <p class="culture-title">企业文化</p>
+        <div class="line-word clearfix">
+            <div class="line left-line"></div>
+            <div class="word">Corporate culture</div>
+            <div class="line left-line"></div>
+        </div>
+        <p class="culture-title">愿景</p>
+        <div class="line-word clearfix">
+            <div class="word no-line">缔造健康医疗护理服务领先品牌！</div>
+        </div>
+        <p class="culture-title">使命</p>
+        <div class="line-word clearfix">
+            <div class="word no-line">让尊贵高端医疗护理服务不是梦！</div>
+        </div>
+        <p class="culture-title">价值观</p>
+        <div class="worthy">
+            <div class="worth-item">
+                <p class="for-target">对客户</p>
+                <p class="slogan">诚信忠实用心贴心</p>
+            </div>
+            <div class="worth-item">
+                <p class="for-target">对客户</p>
+                <p class="slogan">诚信忠实用心贴心</p>
+            </div>
+            <div class="worth-item">
+                <p class="for-target">对客户</p>
+                <p class="slogan">诚信忠实用心贴心</p>
+            </div>
+            <div class="worth-item">
+                <p class="for-target">对客户</p>
+                <p class="slogan">诚信忠实用心贴心</p>
+            </div>
+        </div>
+    </div>
+{/block}
 
 
 {block name="script"}
 <script>
-
-
-    $(document).ready(function () {
+        var h = $('.header-page').css('height');
         $('.header-page').bind('mousewheel', function(event, delta) {
             var dir = delta > 0 ? 'Up' : 'Down';
             if (dir == 'Down') {
-                console.log("向xia滚动， www.imiansha.com");
-                $('.section').show();
-                $('.header-page').slideUp(800,function () {
-                    $(this).hide();
-                });
+                down();
+                console.log('xia');
+//                $('.section').show();
+//                $('.header-page').slideUp(800,function () {
+//                    $(this).hide();
+//                });
             }
         });
         var div2=$(".section");
@@ -69,13 +149,34 @@
         $('.section').bind('mousewheel', function(event, delta) {
             var dir = delta > 0 ? 'Up' : 'Down';
             if (dir == 'Up'&&div2.scrollTop()==0) {
+                up();
                 console.log(div2.scrollTop());
-                $('.section').slideUp(800);
-                $('.header-page').slideDown(800);
+                console.log('shang');
+//                $('.section').slideUp(800);
+//                $('.header-page').slideDown(800);
             } else {
                 console.log(div2.scrollTop());
             }
         });
-    });
+        $('.us>div>img').click(function () {
+            down();
+        });
+        function down() {
+            $('.section').show().animate({
+                top:'-'+h,
+            },1000);
+            $('.header-page').animate({
+                top:'-'+h,
+            },1000);
+        }
+        function up() {
+            $('.section').show().animate({
+                top:'0px',
+            },1000);
+            $('.header-page').animate({
+                top:'0px',
+            },1000);
+        }
+
 </script>
 {/block}

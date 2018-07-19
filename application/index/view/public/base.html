@@ -13,23 +13,29 @@
 <body>
 <section>
     {block name="one-container"}{/block}
-
     <div class="section">
-        {block name="section"}
-        <div style="height: 200px;display: block;">1111</div>
-        <div style="height: 200px;display: block;">1111</div>
-        <div style="height: 200px;display: block;">1111</div>
-        <div style="height: 200px;display: block;">1111</div>
-        <div style="height: 200px;display: block;">1111</div>
-        <div style="height: 200px;display: block;">1111</div>
-        <div style="height: 200px;display: block;">1111</div>
-        <div style="height: 200px;display: block;">1111</div>
+        <div>
+            <div class="head clearfix">
+                <a href="#" class="logo"></a>
+                <ul class="nav clearfix">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">护士家园</a></li>
+                    <li><a href="#">家庭健康管家</a></li>
+                    <li><a href="#">招聘</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+        {block name="section"}{/block}
     </div>
 </section>
+<footer>
+
+</footer>
 <script>
     var browserWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     if(browserWidth>1240){
-        $('section>div').css('padding','0 '+(browserWidth-1200)/2+'px');
+        $('.header-page,.section>div').css({'padding-left':(browserWidth-1200)/2+'px','padding-right':(browserWidth-1200)/2+'px'});
     }
 </script>
 {block name="script"}{/block}
