@@ -1,12 +1,15 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html";i:1531990050;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1531990900;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html";i:1532050942;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532052728;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <link href="/index/css/css.css" rel="stylesheet">
     <script src="/home/js/jquery-2.1.0.js"></script>
-    <script src="/index/js/jquery.mousewheel.min.js"></script>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fwPC1CaQhOq001AbCP72Mq8nh09Syiyf"></script>
+    <script src="/index/js/index.js"></script>
+    
+<script src="/index/js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fwPC1CaQhOq001AbCP72Mq8nh09Syiyf"></script>
+
     <title>Title</title>
     <style>
 
@@ -194,10 +197,10 @@
     </div>
 </section>
 <script>
-    var browserWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    if(browserWidth>1240){
-        $('.header-page,.section>div').css({'padding-left':(browserWidth-1200)/2+'px','padding-right':(browserWidth-1200)/2+'px'});
-    }
+//    var browserWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+//    if(browserWidth>1240){
+//        $('.header-page,.section>div').css({'padding-left':(browserWidth-1200)/2+'px','padding-right':(browserWidth-1200)/2+'px'});
+//    }
 </script>
 
 <script>

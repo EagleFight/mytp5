@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html";i:1531880257;s:58:"E:\xampp\htdocs\tp5\application\home\view\public\base.html";i:1531880257;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html";i:1532047807;s:58:"E:\xampp\htdocs\tp5\application\home\view\public\base.html";i:1531880257;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +48,7 @@
     </footer>
     
     <script>
-        alert('李文李文哈麻皮');
+        alert('白哥哥你好');
     </script>
 
 </body>
