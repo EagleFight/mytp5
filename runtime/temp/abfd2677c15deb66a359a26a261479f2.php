@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532336786;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532052728;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532337405;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532052728;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,8 +63,8 @@
     </div>
     <div class="service">
         <div>
-            <div><span></span><span>四大服务特性</span><span></span></div>
-            <p>SERVICE FEATURES</p>
+            <div class="word"><span class="color"></span><span class="title">四大服务特性</span><span class="color"></span></div>
+            <p class="word-en">SERVICE FEATURES</p>
         </div>
     </div>
 
