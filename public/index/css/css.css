@@ -15,7 +15,7 @@ section>div{position: relative;display: block;height: 100%;background-position: 
 
 @media only screen and (min-width: 1240px) {
     .section>div{background-size:1920px 100%;background-position: center;}
-    /*.section>div>div,.header-page>div{width: 1200px;text-align: center;position: relative;}*/
+    .section>div>div,.header-page>div{width: 1200px;text-align: center;position: relative;}
 }
 
 .head{position: fixed;width: 1200px;}
@@ -90,10 +90,6 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
 
 }
 
-
-
-
-
 /*
 **护士家园样式
  */
@@ -103,51 +99,83 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
 .service-type .container{width: 1200px;margin: 0 auto;height: 100%;}
 .service-type .type-item{float: left;width: 300px;height: 100%;position: relative;}
 .service-type .type-item img{position: absolute;margin: auto;left: 0;right: 0;bottom: 0;top: 0;}
-
-
+.information .infor-en{color: rgb(51,51,51);font-size: 37px;line-height: 37px;font-weight: 600;margin-top: 65px;}
+.information .infor-cn{color: rgb(31,31,69);font-size: 37px;line-height: 37px;font-weight: 300;margin-top: 25px;}
+.information span.block-color{background-color: rgb(45,166,155);display: inline-block;height: 3px;width: 59px;margin: 0 auto;}
+.information .slogan{color: rgb(138,138,138);font-size: 24px;line-height: 24px;font-weight: 300;margin-top: 25px;}
+.information .help{color: rgb(19,18,36);font-size: 24px;line-height: 40px;font-weight: 300;}
+.infor.step-one>div{float: left;position: relative;height: 466px;width: 600px;}
+.step-one{margin-top: 100px;}
+.step-one .left>div{position: relative;}
+.step-one .zixun-img p{color: rgb(241,241,241);font-size: 210px;text-align: left;height: 210px;line-height: 210px;}
+.step-one .zixun-img img{position: absolute;margin: auto;bottom: 20px;left: 10px;width: 180px;height: 105px;}
+.information .most-new{font-size: 40px;font-weight: 300;color: rgb(19,18,36);text-align: left;margin-bottom: 35px;}
+.step-one .title .color-line{width: 32px;height: 5px;background-color: rgb(45,166,155);position: absolute;margin: auto;left: 0;top:11px;}
+.step-one .title p{font-size: 22px;color: rgb(19,18,36);font-weight: 300;text-align: left;padding-left: 40px;height: 22px;margin-bottom: 16px;}
+.step-one .right{text-align: right;height: 430px;padding-top: 36px;text-align: right;}
+.step-one .right img{width: 580px;height: 430px;}
+.img-type{width: 100%;margin-top: 75px;}
+.img-type .type{float: left;height: 215px;width: 300px;}
+.img-type .type img{width: 160px;height: 143px;}
+.img-type .type .title{color: rgb(51,51,51);font-size: 25px;font-weight: 300;margin-top: 3px;}
+.img-type .type .digest{color: rgb(128,128,128);font-size: 20px;font-weight: 300;margin-top: 5px;}
+.step-two{margin-top: 120px;}
+.step-two>div{position: relative;float: left;height: 566px;}
+.step-two .left{width: 355px;padding: 0 75px;}
+.step-two .left img{width: 355px;height: auto;}
+.step-two .right{width: 650px;padding-left: 45px;height: 456px;padding-top: 110px;text-align: right;}
+.step-two .right img{}
+.step-two .right .most-new{text-align: right;padding-right: 200px;margin: 25px 0}
+.step-two .title{position: relative;padding-right: 160px;}
+.step-two .title .color-line{width: 32px;height: 5px;background-color: rgb(45,166,155);position: absolute;margin: auto;right: 160px;top:11px;}
+.step-two .title p{font-size: 22px;color: rgb(19,18,36);font-weight: 300;text-align: right;padding-right: 40px;height: 22px;margin-bottom: 16px;}
+.step-two p.study-two{color: rgb(241,241,241);font-size: 210px;text-align: right;height: 210px;line-height: 210px;}
+.courese{margin-top: 80px;}
+.courese .item{float: left;width: 50%;height: 380px;}
+.courese .item-bg{background-color: rgb(247,247,247);}
+.courese .item img{width: 100%;height: 380px;}
+.courese .item p{text-align: left;margin-left: 35px;margin-right: 65px;}
+.courese .item p.title{margin-top: 65px;}
+.courese .item .cn{font-size: 40px;color: rgb(51,51,51);font-weight: 600;margin-right: 10px;}
+.courese .item .en{font-size: 40px;color: rgb(51,51,51);font-weight: 300;}
+.courese .item .color{background-color: rgb(45,166,155);width: 43px;height: 3px;margin: 19px 0px 30px 35px;}
+.courese .item .digest{color: rgb(128,128,128);font-size: 20px;font-weight: 300;}
+.courese .item-word{margin-top: 110px;height: 210px;}
+.courese .item-word .caption-cn{font-size: 40px;color: rgb(51,51,51);text-align: center;border-bottom: 2px solid rgb(231,231,231);margin: 0;padding-bottom: 15px;}
+.courese .item-word .caption-en{font-size: 28px;color: rgb(128,128,128);text-align: center;margin: 15px 0 25px;}
+.courese .item-word .word{color: rgb(128,128,128);font-size: 20px;text-align: center;margin-bottom: 5px;}
+.step-three{background: url('../image/three_bg.png') no-repeat;background-size:1920px 100%;background-position:center;height: 1170px;margin-top: 40px;}
+.step-three .zhaopin img{margin-top: 160px;margin-bottom: 70px;}
+.step-three .position-enter{margin-top: 50px;margin-bottom: 45px;}
+.step-three .position-enter>div{float: left;width: 50%;text-align: right;}
+.step-three .position-enter .position>div{float: right;height: 160px;}
+.step-three .position-enter .position>div:first-child{border-right: 1px solid white;padding-right: 70px;}
+.step-three .position-enter .enter>div{float: left;height: 160px;}
+.step-three .position-enter .enter>div:first-child{padding-left: 70px;}
+.step-three .position-enter div>div img{width: 160px;height: 160px;}
+.step-three .position-enter div>div p{color: white;font-size: 36px;text-align: left;margin-left: 20px;height: 36px;}
+.step-three .position-enter .salary{margin-top: 40px;margin-bottom: 15px;}
+.step-three>p{font-size: 20px;color: white;font-weight: 300;}
+.step-three .circle-img{width: 1000px;margin: 0 auto;margin-top: 50px;}
+.step-three .img-item{float: left;width: 250px;}
+.step-three .img-item img{width: 160px;height: auto;}
+.step-three .img-item p{font-size: 18px;color: white;margin-top: 5px;}
+.welcome{height: 410px;}
+.welcome h3{font-size: 35px;margin-top: 114px;margin-bottom: 54px;}
+.welcome p{color: rgb(128,128,128);font-size: 24px;font-weight: 300;margin-bottom: 24px;}
 #certify {
     position: relative;
     /*width: 1123px;!*判断宽度设置响应式效果*!*/
-    margin: 60px auto
+    margin: 80px auto 20px;
 }
 
-#certify .swiper-container {
-    text-align: center;
-    padding-bottom: 60px;
-}
-
-#certify  .swiper-slide {
-    width: 800px;
-    height: 347px;
-    background: #fff;
-    border:1px solid #c2c2c2;
-}
-#certify  .swiper-slide img{
-    width: 700px;
-    height: 343px;
-    display:block;
-    border:2px solid #fff;
-}
-
-#certify .swiper-pagination {
-    width: 100%;
-    bottom: 20px;
-}
-
-#certify .swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 5px;
-    border: 3px solid #fff;
-    background-color: #d5d5d5;
-    width: 10px;
-    height: 10px;
-    opacity: 1;
-}
-
-#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
-    border: 3px solid #00aadc;
-    background-color: #fff;
-}
-
+#certify .swiper-container { text-align: center;padding-bottom: 60px;}
+#certify  .swiper-slide {cursor: pointer;width: 672px;height: 376px;background: #fff;box-shadow: 0 0 20px 5px rgba(153,153,153,0.349019);}
+#certify  .swiper-slide img{width: 672px;height: 376px;display:block;transition: .5s ease-in-out;}
+#certify  .swiper-slide img:hover{transform: scale(1.1);}
+#certify .swiper-pagination {width: 100%;bottom: 20px;}
+#certify .swiper-pagination-bullets .swiper-pagination-bullet {margin: 0 5px;border: 3px solid #fff;background-color: #d5d5d5;width: 10px;height: 10px;opacity: 1;}
+#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {border: 3px solid #00aadc;background-color: #fff;}
 #certify .swiper-button-prev {
     left: 140px;
     width: 60px;
@@ -181,6 +209,14 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
 
 }
 
+/*
+**健康管家样式
+ */
+.manager-head{width: 100%;height: 1150px;}
+.manager-head img.head-img{width: 100%;height: 660px;}
+.manager-head .health-type .title{font-size: 36px;color:rgb(51,51,51);}
+.manager-head .health-type .word{font-size: 14px;color: rgb(51,51,51);display: inline-block;height: 15px;line-height: 15px;}
+.manager-head .health-type .color{width: 184px;height: 15px;background-color: rgb(66,221,171);display: inline-block;}
 
 
 

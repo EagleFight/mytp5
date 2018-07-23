@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html";i:1532050942;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532052728;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html";i:1532330516;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532052728;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -204,21 +204,21 @@
 </script>
 
 <script>
-//    var sContent = "<h5 style='margin:0 0 5px 0;'></h5>" +
-//        "<p style='line-height:1.5;font-size:13px;'></p>" +
-//        "</div>";
-//    var map = new BMap.Map("map-container");
-//    var point = new BMap.Point('104.840959,31.407577');
-//    var infoWindow = new BMap.InfoWindow(sContent);
-//    map.centerAndZoom(point, 15);
-//    map.enableScrollWheelZoom(true);
-//    var marker = new BMap.Marker(point);  // 创建标注
-//    map.addOverlay(marker);
-//    map.addControl(new BMap.OverviewMapControl());
-//    map.openInfoWindow(infoWindow,point);
-//    marker.addEventListener("click", function(){
-//        map.openInfoWindow(infoWindow,point); //开启信息窗口
-//    });
+    var sContent = "<h5 style='margin:0 0 5px 0;'></h5>" +
+        "<p style='line-height:1.5;font-size:13px;'></p>" +
+        "</div>";
+    var map = new BMap.Map("map-container");
+    var point = new BMap.Point('104.840959,31.407577');
+    var infoWindow = new BMap.InfoWindow(sContent);
+    map.centerAndZoom(point, 15);
+    map.enableScrollWheelZoom(true);
+    var marker = new BMap.Marker(point);  // 创建标注
+    map.addOverlay(marker);
+    map.addControl(new BMap.OverviewMapControl());
+    map.openInfoWindow(infoWindow,point);
+    marker.addEventListener("click", function(){
+        map.openInfoWindow(infoWindow,point); //开启信息窗口
+    });
 
 
 
