@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532334834;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532052728;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532336786;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532052728;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,16 +29,42 @@
             </div>
         </div>
         
+    <div class="head-bg"></div>
     <div class="manager-head">
-        <img class="head-img" src="/index/image/manager_01.png">
-        <div class="health-type">
+        <div class="health-type clearfix">
             <p class="title">深耕家庭健康生活方式</p>
             <p><span class="word">满足家庭健康生活之需</span><span class="color"></span></p>
             <div class="type-item">
-                <img src="">
-                <p>Multivariate</p>
-                <p>多元</p>
+                <img src="/index/image/icon/duoyuan.png">
+                <p class="type-en">Multivariate</p>
+                <p class="type-cn">多元</p>
             </div>
+            <div class="type-item">
+                <img src="/index/image/icon/zhineng.png">
+                <p class="type-en">Intelligence</p>
+                <p class="type-cn">智能</p>
+            </div>
+            <div class="type-item">
+                <img src="/index/image/icon/dunpai.png">
+                <p class="type-en">Healthy</p>
+                <p class="type-cn">健康</p>
+            </div>
+            <div class="type-item">
+                <img src="/index/image/icon/health.png">
+                <p class="type-en">Science</p>
+                <p class="type-cn">生态</p>
+            </div>
+            <div class="type-item">
+                <img src="/index/image/icon/keji.png">
+                <p class="type-en">Multivariate</p>
+                <p class="type-cn">科学</p>
+            </div>
+        </div>
+    </div>
+    <div class="service">
+        <div>
+            <div><span></span><span>四大服务特性</span><span></span></div>
+            <p>SERVICE FEATURES</p>
         </div>
     </div>
 

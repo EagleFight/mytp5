@@ -212,11 +212,17 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
 /*
 **健康管家样式
  */
-.manager-head{width: 100%;height: 1150px;}
-.manager-head img.head-img{width: 100%;height: 660px;}
-.manager-head .health-type .title{font-size: 36px;color:rgb(51,51,51);}
-.manager-head .health-type .word{font-size: 14px;color: rgb(51,51,51);display: inline-block;height: 15px;line-height: 15px;}
-.manager-head .health-type .color{width: 184px;height: 15px;background-color: rgb(66,221,171);display: inline-block;}
+.head-bg{background: url('../image/manager_01.png') no-repeat;background-size:1920px 100%;background-position:center;width: 100%;height: 660px;}
+.manager-head{width: 100%;height: 490px;}
+.manager-head .health-type .title{font-size: 36px;color:rgb(51,51,51);margin-top: 90px;font-weight: 300;margin-bottom: 5px;}
+.manager-head .health-type .word{font-size: 16px;color: rgb(51,51,51);display: inline-block;height: 16px;line-height: 16px;margin-right: 6px;}
+.manager-head .health-type .color{width: 184px;height: 15px;background-color: rgb(66,221,171);display: inline-block;margin-bottom: -3px;}
+.manager-head .health-type .type-item{float: left;width: 240px;height: 160px;margin-top: 80px;}
+.manager-head .health-type .type-item img{height: 84px;width: auto;}
+.manager-head .type-item .type-en{font-size: 22px;color: rgb(51,51,51);font-weight: 300;margin-top: 10px;}
+.manager-head .type-item .type-cn{font-size: 22px;color: rgb(66,221,171);font-weight: 300;margin-top: 5px;}
+.service{background: url('../image/manager_02.png') no-repeat;background-size:1920px 100%;background-position:center;width: 100%;height: 705px;}
+
 
 
 
