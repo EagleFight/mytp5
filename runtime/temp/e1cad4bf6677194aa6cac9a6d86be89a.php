@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html";i:1532330516;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532052728;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html";i:1532420889;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532052728;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,13 +27,13 @@
         <p class="type">互联网+实体机构<span>/</span>专业人员<span>/</span>全新模式<span>/</span>高端享受</p>
         <ul class="clearfix">
             <li class="home-bg-color">
-                <a href="#">
+                <a href="<?php echo Url('nurse'); ?>">
                     <p class="nav-cn">护士家园</p>
                     <p class="nav-en">NURSE HOME</p>
                 </a>
             </li>
             <li class="steward-bg-color">
-                <a href="#">
+                <a href="<?php echo Url('manager'); ?>">
                     <p class="nav-cn">健康管家</p>
                     <p class="nav-en">HEALTH STEWARD</p>
                 </a>
@@ -177,9 +177,9 @@
             </div>
         </div>
     </div>
-    <!--<div class="map">-->
-        <!--<div id="map-container"></div>-->
-    <!--</div>-->
+    <div class="map">
+
+    </div>
 
         <footer class="foot">
             <!--<a href="javascript:void(0)" class="btn_top" id="rMenuCont" title="返回顶部" style="display: inline;"></a>-->
@@ -204,23 +204,6 @@
 </script>
 
 <script>
-    var sContent = "<h5 style='margin:0 0 5px 0;'></h5>" +
-        "<p style='line-height:1.5;font-size:13px;'></p>" +
-        "</div>";
-    var map = new BMap.Map("map-container");
-    var point = new BMap.Point('104.840959,31.407577');
-    var infoWindow = new BMap.InfoWindow(sContent);
-    map.centerAndZoom(point, 15);
-    map.enableScrollWheelZoom(true);
-    var marker = new BMap.Marker(point);  // 创建标注
-    map.addOverlay(marker);
-    map.addControl(new BMap.OverviewMapControl());
-    map.openInfoWindow(infoWindow,point);
-    marker.addEventListener("click", function(){
-        map.openInfoWindow(infoWindow,point); //开启信息窗口
-    });
-
-
 
         var h = $('.header-page').css('height');
         $('.header-page').bind('mousewheel', function(event, delta) {

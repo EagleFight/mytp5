@@ -15,6 +15,9 @@ class Index
     public function manager(){
         return view();
     }
+    public function zhaopin(){
+        return view();
+    }
     public function map(){
         return view();
     }

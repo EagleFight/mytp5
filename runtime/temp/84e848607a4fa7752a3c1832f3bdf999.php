@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\nurse.html";i:1532329727;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532052728;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\nurse.html";i:1532329727;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532420951;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,9 +20,9 @@
             <div class="head clearfix">
                 <a href="#" class="logo"></a>
                 <ul class="nav clearfix">
-                    <li><a href="#">首页</a></li>
-                    <li><a href="#">护士家园</a></li>
-                    <li><a href="#">家庭健康管家</a></li>
+                    <li><a href="<?php echo Url('index'); ?>">首页</a></li>
+                    <li><a href="<?php echo Url('nurse'); ?>">护士家园</a></li>
+                    <li><a href="<?php echo Url('manager'); ?>">家庭健康管家</a></li>
                     <li><a href="#">招聘</a></li>
                     <li><a href="#">联系我们</a></li>
                 </ul>
