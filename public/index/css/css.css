@@ -226,9 +226,47 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
 .service .color{width: 7px;height: 42px;background-color: rgb(66,221,171);display: inline-block;margin-bottom: -8px;}
 .service .title{font-size: 35px;color: white;display: inline-block;margin: 0 13px;}
 .service .word-en{font-size: 20px;margin-top: 44px;color: white;font-weight: 300;}
-
-
-
+.service .service-item{float: left;margin-right: 7px;width: 293px;background-color: white;margin-top: 65px;height: 325px;position: relative;}
+.service .service-item:last-child{margin-right: 0;}
+.service  .service-item .color-line{width: 305px;background-color: rgb(66,221,171);margin: auto;position: absolute;left: -6px;right: 0;bottom: -6px;}
+.service .service-item:hover{/*transform: scale(1.03);*/ box-shadow: 0 0 0px 6px white;
+    cursor: pointer;transition: .5s ease-in-out;}
+.service .service-item:hover>.color-line{bottom:-16px;border-bottom:10px solid rgb(66,221,171);transition: .7s ease-in-out;}
+.service  .service-item img{width: 293px;height: 196px;}
+.service  .service-item .title-cn{color: rgb(51,51,51);font-size: 18px;margin-top: 25px;}
+.service  .service-item .title-en{color: rgb(128,128,128);font-size: 16px;margin-top: 15px;font-weight: 300;}
+.your-manager{height: 720px;}
+.your-manager h2{padding-top: 80px;margin: 0;font-size: 34px;color: rgb(51,51,51);}
+.your-manager h2 .color{color: rgb(66,221,171);}
+.your-manager .digest{font-size: 24px;color: rgb(128,128,128);font-weight: 300;margin-top: 28px;margin-bottom: 60px;}
+.your-manager .img-word>div{float: left;width: 50%;position: relative;height: 400px;}
+.your-manager .img-word .left img{width: 100%;height: 100%;}
+.your-manager .img-word .right>p,.your-manager .img-word .right>div{margin-left: 50px;text-align: left;}
+.your-manager .img-word .right .slogan{font-size: 24px;color: rgb(66,221,171);text-align: left;font-weight: 600;}
+.your-manager .img-word .right .slogan:first-child{margin-top: 23px;}
+.your-manager .img-word .right .word{position: relative;margin-bottom: 35px;text-align: left;padding-left: 50px;font-size: 19px;font-weight: 300;margin-top: 15px;}
+.your-manager .img-word .right .word .line{background-color:rgb(66,221,171);height: 3px;width: 33px;position: absolute;margin: auto;top: 0;bottom: 0;left: 5px;}
+.your-manager .img-word .span-type span{display: inline-block;height: 37px;width: 118px;color: white;line-height: 37px;font-size: 24px;background-color: rgb(51,51,51);border-radius: 5px;text-align: center;margin-right: 15px;font-weight: 300;}
+.four-service{background: url('../image/manager_08.png') no-repeat;background-size:1920px 100%;background-position:center;width: 100%;height: 740px;}
+.four-service h2{font-size: 46px;color: rgb(51,51,51);padding-top: 44px;margin-top: 0;margin-bottom: 36px;font-weight: 400;}
+.four-service .digest{font-size: 19px;color: rgb(51,51,51);}
+.four-features{height: 1520px;}
+.four-features .video img.head-img{margin-top: 90px;margin-bottom: 36px;}
+.four-features .video .digest{font-size: 23px;color: rgb(128,128,128);font-weight: 300;margin-bottom: 10px;}
+.four-features .video .video-item{width: 585px;height: 530px;float: left;margin-right: 30px;margin-top: 65px;}
+.four-features .video .video-item a{width: 585px;height: 275px;display: block;cursor: pointer;}
+.four-features .video .video-item .word{padding-left: 20px;text-align: left;}
+.four-features .video .video-item .word h2{font-size: 24px;color: rgb(51,51,51);margin-bottom: 24px;}
+.four-features .video .video-item .word h2 span{font-size: 16px;color: rgb(51,51,51);font-weight: 400;margin-left: 5px;}
+.four-features .video .video-item .word .function{font-size: 23px;font-weight: 300;color: rgb(51,51,51);}
+.four-features .video .video-item .word .color{width: 69px;height: 7px;background-color:rgb(66,221,171);display: inline-block;margin-bottom: 20px;margin-top: 15px;}
+.four-features .video .video-item .word .intro{font-size: 18px;font-weight: 300;color: rgb(128,128,128);height: 25px;line-height: 25px;}
+.we-service{background: url('../image/manager_15.png') no-repeat;background-size:1920px 100%;background-position:center;width: 100%;height: 568px;padding-top: 160px;}
+.we-service>div{width: 770px !important;height: 100px;border-bottom: 2px solid white;border-left: 2px solid white;border-right: 2px solid white;padding: 80px 0;position: relative;}
+.we-service>div>p{font-size: 36px;color: white;height: 50px;line-height: 50px;}
+.we-service>div>p.we{position: absolute;margin: auto;left: 0;right: 0;top:-25px;width: 170px;}
+.we-service>div .left-line{position: absolute;margin: auto;height: 2px;width: 300px;top:0;left: 0;background-color: white;}
+.we-service>div .right-line{position: absolute;margin: auto;height: 2px;width: 300px;top:0;right: 0;background-color: white;}
 
 
 
