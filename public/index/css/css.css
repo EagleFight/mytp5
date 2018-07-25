@@ -29,6 +29,10 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
 .eym img {width: 100px;height: 100px;}
 .foot .foot-logo {display: block;margin: 0px auto 10px;}
 .foot .foot-size p {line-height: 20px;}
+@media only screen and (max-width: 1240px) {
+    .section>div{width: 10rem;}
+    .section>div>div{width: 9.4rem !important;margin: 0 0.3rem !important;}
+}
 /*
 **官网首页样式
  */
@@ -102,7 +106,21 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
     .header-page li p.nav-cn{margin-top: 0.193rem;font-size: 20px;}
     .header-page li p.nav-en{margin-top: 0.032rem;font-size: 14px;}
 
+    .com-intro .color-block{width: 0.806rem;height: 0.282rem;}
+    .com-intro .title-img img{width: 1.564rem;height: auto;}
+    .com-intro .content{margin-top: 2.581rem;margin-top: 0.645rem !important;}
+    .com-intro .content img{width: 4.258rem;height: auto;}
+    .com-intro .right-word p{font-size: 16px;line-height: 0.225rem;padding-left: 0.322rem;margin-bottom: 0.387rem;}
 
+    .new-exp .clearfix{width: 6.742rem !important;margin: 0.604rem auto 0 !important;}
+    .new-exp .clearfix>div{width: 1.685rem;height: 1.854rem;}
+    .new-exp .clearfix>div img{width: 1rem;height: auto;}
+    .new-exp .clearfix .word-cn{font-size: 22px;margin-top: 0.201rem;}
+
+
+}
+@media only screen and (max-width: 1050px) {
+    .new-exp .clearfix .word-cn{font-size: 20px;}
 }
 
 /*
