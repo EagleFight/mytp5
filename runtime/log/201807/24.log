@@ -10825,3 +10825,1228 @@
   0 => 'vid',
 ) ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T16:51:43+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.059080s][吞吐率：16.93req/s] [内存消耗：1,795.91kb] [文件加载：42]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T16:51:45+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.024034s][吞吐率：41.61req/s] [内存消耗：1,627.75kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T16:55:06+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.067247s][吞吐率：14.87req/s] [内存消耗：1,797.14kb] [文件加载：42]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T16:55:59+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.065886s][吞吐率：15.18req/s] [内存消耗：1,797.30kb] [文件加载：42]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T16:56:48+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JuLBAY8UNpHHDiRWcBskMtbGF4xdTM8KQ9QFeDAaTOvVFiaNmxaD13pfhzGhlgJRyIH2BDqgdQBftPYASTg4cjeIULoU1Uhklyct%2Bcg1E5zHje%2F49DtNQwDzL4GBeyXkXwtXmHb26Z0At%2FOutT0VGExxm7HN%2BUPuAnAws%2F%2FKbZJ3raDsxIhqDrjl%2BKNM5yumX8DVsQAkg%2BYCFkU%2BwnjFJ0f2ykGSYSCegC9NEc9vsLqkTFpmS5miAgJ%2FzOYt9sOMva7dxf3qW5JF1cC1eb0Ct%2B9GP56AkgIrDEfHPpAY04evEf3nRoD0pvf54HkmDpvRsMxo%2BJj1%2Fqo0W5Eomr%2FwVbFep8fI4Okemybda4kSyaZ71As2OgelAV8A28yZII5HP0Z5HJjlcQMNLt02xQBQ3OnIAXJwGkF6JIp50rm5e4tO%2FiMFNWJ6wgxQSfN574ZfB0ZQZiMw8qcHkkFcWj%2F2nTmEWEZJRn%2BucGtJ0dV%2FOabv%2F4T5hxymJtcxqYhCwZL3OMA2GM4hZZpmn%2BAFfG%2FYYV2dnyWFIfgvy3iobgZDI4q6v5BPT4MnzOmBx33H9Y2ExZVq9ZDesEPf4jmSoxGoZZdmpI9XF8lwE9b1k6OUoqJ%2Fg%3D%3D&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JuLBAY8UNpHHDiRWcBskMtbGF4xdTM8KQ9QFeDAaTOvVFiaNmxaD13pfhzGhlgJRyIH2BDqgdQBftPYASTg4cjeIULoU1Uhklyct%2Bcg1E5zHje%2F49DtNQwDzL4GBeyXkXwtXmHb26Z0At%2FOutT0VGExxm7HN%2BUPuAnAws%2F%2FKbZJ3raDsxIhqDrjl%2BKNM5yumX8DVsQAkg%2BYCFkU%2BwnjFJ0f2ykGSYSCegC9NEc9vsLqkTFpmS5miAgJ%2FzOYt9sOMva7dxf3qW5JF1cC1eb0Ct%2B9GP56AkgIrDEfHPpAY04evEf3nRoD0pvf54HkmDpvRsMxo%2BJj1%2Fqo0W5Eomr%2FwVbFep8fI4Okemybda4kSyaZ71As2OgelAV8A28yZII5HP0Z5HJjlcQMNLt02xQBQ3OnIAXJwGkF6JIp50rm5e4tO%2FiMFNWJ6wgxQSfN574ZfB0ZQZiMw8qcHkkFcWj%2F2nTmEWEZJRn%2BucGtJ0dV%2FOabv%2F4T5hxymJtcxqYhCwZL3OMA2GM4hZZpmn%2BAFfG%2FYYV2dnyWFIfgvy3iobgZDI4q6v5BPT4MnzOmBx33H9Y2ExZVq9ZDesEPf4jmSoxGoZZdmpI9XF8lwE9b1k6OUoqJ%2Fg%3D%3D&v=1 [运行时间：0.044895s][吞吐率：22.27req/s] [内存消耗：1,357.21kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'messenger-front',
+    1 => 'get',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JuLBAY8UNpHHDiRWcBskMtbGF4xdTM8KQ9QFeDAaTOvVFiaNmxaD13pfhzGhlgJRyIH2BDqgdQBftPYASTg4cjeIULoU1Uhklyct+cg1E5zHje/49DtNQwDzL4GBeyXkXwtXmHb26Z0At/OutT0VGExxm7HN+UPuAnAws//KbZJ3raDsxIhqDrjl+KNM5yumX8DVsQAkg+YCFkU+wnjFJ0f2ykGSYSCegC9NEc9vsLqkTFpmS5miAgJ/zOYt9sOMva7dxf3qW5JF1cC1eb0Ct+9GP56AkgIrDEfHPpAY04evEf3nRoD0pvf54HkmDpvRsMxo+Jj1/qo0W5Eomr/wVbFep8fI4Okemybda4kSyaZ71As2OgelAV8A28yZII5HP0Z5HJjlcQMNLt02xQBQ3OnIAXJwGkF6JIp50rm5e4tO/iMFNWJ6wgxQSfN574ZfB0ZQZiMw8qcHkkFcWj/2nTmEWEZJRn+ucGtJ0dV/Oabv/4T5hxymJtcxqYhCwZL3OMA2GM4hZZpmn+AFfG/YYV2dnyWFIfgvy3iobgZDI4q6v5BPT4MnzOmBx33H9Y2ExZVq9ZDesEPf4jmSoxGoZZdmpI9XF8lwE9b1k6OUoqJ/g==',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T16:56:59+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.090932s][吞吐率：11.00req/s] [内存消耗：1,797.35kb] [文件加载：42]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T16:58:42+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.077045s][吞吐率：12.98req/s] [内存消耗：1,797.44kb] [文件加载：42]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T16:59:17+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.065813s][吞吐率：15.19req/s] [内存消耗：1,627.74kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:00:35+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.039516s][吞吐率：25.31req/s] [内存消耗：1,627.74kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:01:22+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.070981s][吞吐率：14.09req/s] [内存消耗：1,797.48kb] [文件加载：42]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:02:22+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.051893s][吞吐率：19.27req/s] [内存消耗：1,627.76kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:02:29+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.047813s][吞吐率：20.91req/s] [内存消耗：1,627.76kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:02:55+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.035450s][吞吐率：28.21req/s] [内存消耗：1,627.76kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:03:06+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.032038s][吞吐率：31.21req/s] [内存消耗：1,627.76kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:03:33+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.061948s][吞吐率：16.14req/s] [内存消耗：1,627.76kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:04:42+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.071002s][吞吐率：14.08req/s] [内存消耗：1,797.57kb] [文件加载：42]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:04:43+08:00 ] 127.0.0.1 GET /index/image/weizhi.png
+[ info ] 127.0.0.1/index/image/weizhi.png [运行时间：0.079513s][吞吐率：12.58req/s] [内存消耗：1,362.08kb] [文件加载：36]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'image',
+    2 => 'weizhi.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:05:10+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.069100s][吞吐率：14.47req/s] [内存消耗：1,797.57kb] [文件加载：42]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:06:24+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.083506s][吞吐率：11.98req/s] [内存消耗：1,797.63kb] [文件加载：42]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:06:46+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.040057s][吞吐率：24.96req/s] [内存消耗：1,627.78kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:08:05+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.054783s][吞吐率：18.25req/s] [内存消耗：1,627.78kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:09:26+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.043764s][吞吐率：22.85req/s] [内存消耗：1,627.78kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:10:58+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.040758s][吞吐率：24.53req/s] [内存消耗：1,627.78kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:11:32+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.042305s][吞吐率：23.64req/s] [内存消耗：1,627.78kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:11:56+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.043866s][吞吐率：22.80req/s] [内存消耗：1,627.78kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:13:02+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.034381s][吞吐率：29.09req/s] [内存消耗：1,627.78kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:13:23+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.048974s][吞吐率：20.42req/s] [内存消耗：1,627.78kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:18:25+08:00 ] 127.0.0.1 GET /index/index/manager.html
+[ info ] 127.0.0.1/index/index/manager.html [运行时间：0.075231s][吞吐率：13.29req/s] [内存消耗：1,800.20kb] [文件加载：42]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->manager[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:18:26+08:00 ] 127.0.0.1 GET /index/index/manager.html
+[ info ] 127.0.0.1/index/index/manager.html [运行时间：0.035331s][吞吐率：28.30req/s] [内存消耗：1,627.66kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->manager[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:18:30+08:00 ] 127.0.0.1 GET /index/index/video?vid=p06090jyciy
+[ info ] 127.0.0.1/index/index/video?vid=p06090jyciy [运行时间：0.054412s][吞吐率：18.38req/s] [内存消耗：1,548.52kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'vid' => 'p06090jyciy',
+)
+[ info ] [ RUN ] app\index\controller\Index->video[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\video.html [ array (
+  0 => 'vid',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:18:36+08:00 ] 127.0.0.1 GET /index/index/video?vid=y0546m4fv30
+[ info ] 127.0.0.1/index/index/video?vid=y0546m4fv30 [运行时间：0.042805s][吞吐率：23.36req/s] [内存消耗：1,548.52kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'vid' => 'y0546m4fv30',
+)
+[ info ] [ RUN ] app\index\controller\Index->video[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\video.html [ array (
+  0 => 'vid',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:18:44+08:00 ] 127.0.0.1 GET /index/index/manager.html
+[ info ] 127.0.0.1/index/index/manager.html [运行时间：0.032794s][吞吐率：30.49req/s] [内存消耗：1,627.66kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->manager[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:20:02+08:00 ] 127.0.0.1 GET /index/index/video?vid=p06090jyciy
+[ info ] 127.0.0.1/index/index/video?vid=p06090jyciy [运行时间：0.104242s][吞吐率：9.59req/s] [内存消耗：1,548.52kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'vid' => 'p06090jyciy',
+)
+[ info ] [ RUN ] app\index\controller\Index->video[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\video.html [ array (
+  0 => 'vid',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:23:20+08:00 ] 127.0.0.1 GET /index/index/manager.html
+[ info ] 127.0.0.1/index/index/manager.html [运行时间：0.048312s][吞吐率：20.70req/s] [内存消耗：1,627.66kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->manager[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:23:24+08:00 ] 127.0.0.1 GET /index/index/video?vid=p06090jyciy
+[ info ] 127.0.0.1/index/index/video?vid=p06090jyciy [运行时间：0.075511s][吞吐率：13.24req/s] [内存消耗：1,690.66kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'vid' => 'p06090jyciy',
+)
+[ info ] [ RUN ] app\index\controller\Index->video[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\video.html [ array (
+  0 => 'vid',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:24:01+08:00 ] 127.0.0.1 GET /index/index/video?vid=t06092bhjv4
+[ info ] 127.0.0.1/index/index/video?vid=t06092bhjv4 [运行时间：0.040008s][吞吐率：24.99req/s] [内存消耗：1,548.48kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'vid' => 't06092bhjv4',
+)
+[ info ] [ RUN ] app\index\controller\Index->video[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\video.html [ array (
+  0 => 'vid',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:25:19+08:00 ] 127.0.0.1 GET /index/index/manager.html
+[ info ] 127.0.0.1/index/index/manager.html [运行时间：0.040366s][吞吐率：24.77req/s] [内存消耗：1,627.66kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->manager[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:25:24+08:00 ] 127.0.0.1 GET /index/index/video?vid=p06090jyciy
+[ info ] 127.0.0.1/index/index/video?vid=p06090jyciy [运行时间：0.084212s][吞吐率：11.87req/s] [内存消耗：1,691.12kb] [文件加载：40]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'vid' => 'p06090jyciy',
+)
+[ info ] [ RUN ] app\index\controller\Index->video[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\video.html [ array (
+  0 => 'vid',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:25:28+08:00 ] 127.0.0.1 GET /index/index/video?vid=t06092bhjv4
+[ info ] 127.0.0.1/index/index/video?vid=t06092bhjv4 [运行时间：0.052900s][吞吐率：18.90req/s] [内存消耗：1,548.52kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'vid' => 't06092bhjv4',
+)
+[ info ] [ RUN ] app\index\controller\Index->video[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\video.html [ array (
+  0 => 'vid',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-24T17:25:35+08:00 ] 127.0.0.1 GET /index/index/video?vid=y0546m4fv30
+[ info ] 127.0.0.1/index/index/video?vid=y0546m4fv30 [运行时间：0.046553s][吞吐率：21.48req/s] [内存消耗：1,548.52kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/manager.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'vid' => 'y0546m4fv30',
+)
+[ info ] [ RUN ] app\index\controller\Index->video[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\video.html [ array (
+  0 => 'vid',
+) ]
+[ info ] [ LOG ] INIT File

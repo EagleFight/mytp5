@@ -18,13 +18,18 @@ class Index
     public function zhaopin(){
         return view();
     }
+    public function detail(){
+        return view();
+    }
     public function map(){
         return view();
     }
     public function video(){
         $vid = $_GET['vid'];
+        $type = $_GET['type'];
         $view = new View();
         $view->vid = $vid;
+        $view->assign('type',$type);
         return $view->fetch();
     }
 }

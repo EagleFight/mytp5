@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532420329;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532420951;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532480384;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532420951;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -131,7 +131,7 @@
             <p class="digest">以健康为源，激发家庭活力基因</p>
             <p class="digest">针对家庭特征及生活品质需求，定制专属于您的个性化家庭健康服务</p>
             <div class="video-item">
-                <a href="#" onclick="makeNewWindow('video?vid=p06090jyciy')">
+                <a href="#" onclick="makeNewWindow('video?vid=p06090jyciy&type=1')">
                     <img src="/index/image/manager_11.png">
                 </a>
                 <div class="word">
@@ -143,7 +143,7 @@
                 </div>
             </div>
             <div class="video-item" style="margin-right: 0;">
-                <a href="#" onclick="makeNewWindow('video?vid=y0546m4fv30')">
+                <a href="#" onclick="makeNewWindow('video?vid=y0546m4fv30&type=2')">
                     <img src="/index/image/manager_12.png">
                 </a>
                 <div class="word">
@@ -157,7 +157,7 @@
                 </div>
             </div>
             <div class="video-item">
-                <a href="#" onclick="makeNewWindow('video?vid=t06092bhjv4')">
+                <a href="#" onclick="makeNewWindow('video?vid=t06092bhjv4&type=3')">
                     <img src="/index/image/manager_13.png">
                 </a>
                 <div class="word">
@@ -171,7 +171,7 @@
                 </div>
             </div>
             <div class="video-item" style="margin-right: 0;">
-                <a href="#" onclick="makeNewWindow('video?vid=x0609fa6xg3')">
+                <a href="#" onclick="makeNewWindow('video?vid=x0609fa6xg3&type=4')">
                     <img src="/index/image/manager_14.png">
                 </a>
                 <div class="word">
@@ -227,7 +227,8 @@
             var height = 500;
             var left = parseInt((screen.availWidth/2) - (width/2));//屏幕居中
             var top = parseInt((screen.availHeight/2) - (height/2));
-            var windowFeatures = "width=" + width + ",height=" + height + ",status,resizable,left=" + left + ",top=" + top + "screenX=" + left + ",screenY=" + top;
+            var resizable='no';
+            var windowFeatures = "width=" + width + ",height=" + height + ",status,resizable,left=" + left + ",top=" + top + "screenX=" + left + ",screenY=" + top+',resizable='+resizable;
             newWindow = window.open(url, "subWind", windowFeatures);
         } else {
             // window is already open, so bring it to the front

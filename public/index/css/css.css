@@ -17,8 +17,8 @@ section>div{position: relative;display: block;height: 100%;background-position: 
     .section>div{background-size:1920px 100%;background-position: center;}
     .section>div>div,.header-page>div{width: 1200px;text-align: center;position: relative;}
 }
-
-.head{position: fixed;width: 1200px;}
+.head-nav{position: fixed !important;background-color: white;z-index: 2000;box-shadow: 0px 2px 2px #efefef;}
+.head{width: 1200px;}
 .head .logo{background: url("../image/logo.png") no-repeat center;background-size:180px;height:80px;display: block;height: 80px;width: 180px;float: left;}
 .head .nav{float: right;}
 .head .nav li{float: left;height: 80px;line-height: 80px;}
@@ -32,8 +32,8 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
 /*
 **官网首页样式
  */
-.header-page{  background:url('../image/beijing.png') no-repeat;background-size:1920px 100%;background-position:center;overflow: auto;}
-.header-page .small-logo img{height: auto;width: 3.330rem;margin-top: 25px;}
+.header-page{background:url('../image/beijing.png') no-repeat;background-size:1920px 100%;background-position:center;overflow: auto;}
+.header-page .small-logo img{height: auto;width: 640px;margin-top: 25px;}
 .header-page p{width: 100%;text-align: center;}
 .header-page p.type{color: rgb(112,112,112);font-size: 18px;margin-top: 10px;}
 .header-page p.type span{margin: 0 6px;}
@@ -51,7 +51,7 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
 .us>div>img{cursor: pointer;}
 
 .head li a:hover{color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);}
-.com-intro{background: url('../image/jianjiebeijing.png') no-repeat;background-size: cover;width: 100%;height: 630px;position: relative;text-align: center;}
+.com-intro{background: url('../image/jianjiebeijing.png') no-repeat;background-size: cover;width: 100%;height: 630px;position: relative;text-align: center;margin-top: 80px;}
 .com-intro .color-block{position: absolute;margin:auto;left: 0;right: 0;top: 0;background-color: rgb(45,166,155);width: 100px;height: 35px;}
 .com-intro .title-img img{width: 194px;height: 96px;margin-top: 85px;}
 .com-intro .content{height: 320px;margin-top: 80px;}
@@ -83,10 +83,25 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
 .platform .or-item:last-child{margin-right: 0;}
 .platform .or-item img{width: 240px;height: 240px;}
 .platform .or-item p{font-size: 22px;font-weight: 300;color: rgb(51,51,51);}
-@media only screen and (min-width: 1240px) {
+.map-contact{height: 530px;}
+.map-contact>div.content{background: url('../image/map.png') no-repeat;background-size: 1200px 530px;width: 100%;position: relative;height: 530px;width: 1200px;margin: 0 auto;}
+.map-contact .ab-bg{position: absolute;margin: auto;width: 100% !important;height: 100%;background-color: rgba(0,0,0,.8);left: 0;right: 0;top:0;bottom: 0;}
+.map-contact .contact{padding-top: 25px;}
+.map-contact .contact .we{font-size: 29px;color: white;margin: 0 14px ;}
+.map-contact .contact .color{display: inline-block;width: 5px;height: 38px;background-color: rgb(65,205,190);margin-bottom: -10px;}
+.map-contact .seek{width: 90px;cursor: pointer;margin: 0 auto;}
+.map-contact .seek img{height: 38px;width: auto;margin-top: 23px;}
+.map-contact .seek p{font-size: 19px;color: rgb(251,94,63);}
+.map-contact .adress{font-size: 18px;color: white;margin-bottom: 80px;margin-top: 5px;}
+@media only screen and (max-width: 1240px) {
     /*html {*/
         /*font-size:94%!important*/
     /*}*/
+    .header-page .small-logo img{height: auto;width: 3.330rem;margin-top: 25px;}
+    .header-page li{width: 2rem;height: 0.854rem;}
+    .header-page li p.nav-cn{margin-top: 0.193rem;font-size: 20px;}
+    .header-page li p.nav-en{margin-top: 0.032rem;font-size: 14px;}
+
 
 }
 
@@ -271,10 +286,61 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
 /*
 **招聘样式
  */
-.zhao-join{height: 685px;background: url('../image/manager_15.png') no-repeat;background-size:1920px 100%;background-position:center;width: 100%;}
+.zhao-join-head{height: 685px;background: url('../image/zhaopin_01.png') no-repeat;background-size:1920px 100%;background-position:center;width: 100%;}
 .zhao-platform{height: 650px;}
-.zhao-working{height: 920px;}
-
-
-
-
+.zhao-platform .word{text-align: left;padding-top: 55px;}
+.zhao-platform .word .en{font-size: 17px;color: rgb(51,51,51);font-weight: 700;}
+.zhao-platform .word h2{font-size: 48px;color: rgb(51,51,51);margin-top: 6px;margin-bottom: 20px;}
+.zhao-platform .word .color{width: 106px;height: 7px;background-color: rgb(255,115,0);margin-bottom: 25px;}
+.zhao-platform .word .slogan{font-size: 24px;color: rgb(128,128,128);font-weight: 300;height: 28px;line-height: 28px;}
+.zhao-platform .img-type{margin-top: 50px !important;}
+.zhao-platform .img-type img{width: 276px;height: 271px;margin-right: 32px;float: left;}
+.zhao-platform .img-type img:last-child{margin-right: 0px;}
+.zhao-working{height: 925px;background: url('../image/zhaopin_06.png') no-repeat;background-size:1920px 100%;background-position:center;width: 100%;}
+.zhao-working .en{padding-top: 45px;font-size: 32px;color: white;}
+.zhao-working .word{position: relative;width:570px;margin-top: 14px;}
+.zhao-working .word p{font-size: 35px;color: white;}
+.zhao-working .word .left-line{position: absolute;margin: auto;top: 0;bottom: 0;left: 0;background-color: white;height: 1px;background-color: white;width: 135px;}
+.zhao-working .word .right-line{position: absolute;margin: auto;top: 0;bottom: 0;right: 0;background-color: white;height: 1px;background-color: white;width: 135px;}
+.zhao-working .img-word .img-down{float: left;width: 465px;height: 608px;background-color: white;margin-top: 85px;}
+.zhao-working .img-word .center{float: left;width: 270px;height: 608px;background-color: white;margin-top: 85px;}
+.zhao-working .img-word .icon{font-size: 23px;color: rgb(255,115,0);border: 2px solid rgb(255,115,0);padding: 9px 14px;width: 170px;border-radius: 5px;margin: 0 auto;margin-bottom: 25px;}
+.zhao-working .img-word .content{height: 30px;line-height: 30px;font-size: 19px;color: rgb(51,51,51);font-weight: 300;text-align: left;}
+.zhao-working .img-down .up{height: 186px;padding: 60px 50px;}
+.zhao-working .img-down .down img{height: 302px;width: 465px;}
+.zhao-working .center .up img{width: 270px;height: 370px;}
+.zhao-working .center .down{height: 200px;padding-top: 38px;}
+.zhao-working .center .content{text-align: center;}
+.zhao-working .center .icon{margin-top: 25px;margin-bottom: 0;}
+.zhao-job{padding-bottom: 40px;}
+.zhao-job .title-cn{font-size: 34px;color: rgb(255,115,0);font-weight: 600;padding-top: 75px;}
+.zhao-job .title-en{font-size: 20px;color: rgb(51,51,51);font-weight: 300;margin-top: 38px;margin-bottom: 90px;}
+.zhao-job ul{padding: 0;}
+.zhao-job ul li{margin-bottom: 48px;}
+.zhao-job ul li a{width: 100%;height: 413px;overflow: hidden;}
+.zhao-job ul li a img{width: 100%;height: auto;min-height: 413px;}
+.zhao-join-foot{height: 346px;background: url('../image/zhaopin_10.png') no-repeat;background-size:1920px 100%;background-position:center;width: 100%;}
+/*
+**招聘详情样式
+ */
+.detail-head{height: 685px;background: url('../image/detail_head.png') no-repeat;background-size:1920px 100%;background-position:center;width: 100%;}
+.detail-content{padding-top: 490px;background-color: rgb(247,247,247);padding-bottom: 130px;}
+.detail-content .circle{font-size:68px;line-height:120px;color:white;width: 120px;height: 120px;background-color: rgb(255,115,0);position: absolute;left: 0;right: 0;top:-135px;z-index: 1000;border-radius: 50%;}
+.detail-content .rec{position: absolute;margin: auto;top:-75px;left: 0;right: 0;z-index: 999;}
+.detail-content .caption span{float:left;width: 400px;text-align: center;display: inline-block;color: white;background-color: rgb(64,204,190);height: 60px;line-height: 60px;font-size: 23px;}
+.detail-content .salary{height: 124px;background-color: rgb(254,128,24);padding-left: 100px;padding-top: 33px;padding-bottom: 33px;color: white;}
+.detail-content .salary.welfare{background-color: rgb(255,115,0);}
+.detail-content .salary .left{width: 226px;padding: 20px 0;height: 84px;border-right: 1px solid white;float: left;}
+.detail-content .salary .left img,.detail-content .salary .left div{float: left;}
+.detail-content .salary .salary-cn{font-size: 22px;height: 40px;line-height: 40px;text-align: left;margin-left: 17px;}
+.detail-content .salary .salary-en{font-size: 17px;height: 40px;line-height: 40px;text-align: left;margin-left: 17px;}
+.detail-content .salary .right{width: 240px;float: left;padding: 0 20px;margin-right: 100px;}
+.detail-content .salary .right .title{font-size: 24px;}
+.detail-content .salary .right .intro-word{font-size: 19px;line-height: 25px;margin-top: 5px;font-weight: 300;}
+.detail-content .salary .right .color{height: 30px;line-height: 30px;margin: 0 auto;display: inline-block;background-color: white;color: rgb(255,115,0);border-radius: 5px;font-size: 19px;padding: 0 15px;margin-top: 5px;}
+.detail-content .salary .right.right-word{width: 610px;padding: 32px 243px 32px 20px;margin-right: 0;}
+.detail-content .salary .right.right-word .intro-word{text-align: left;line-height: 30px;}
+.detail-position{background-color: white;padding: 0 70px;width: 1060px !important;padding-top: 38px;margin-top: 45px;}
+.detail-position .title{font-size: 29px;color:rgb(64,204,190);padding-bottom: 25px;border-bottom: 1px dashed rgb(128,128,128);text-align: left;}
+.detail-position .item-content{margin-top: 22px;padding-bottom: 35px;}
+.detail-position .item-content p{height: 35px;line-height: 35px;font-size: 19px;color: rgb(51,51,51);font-weight: 300;text-align: left;}

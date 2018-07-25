@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html";i:1532420889;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532052728;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html";i:1532506150;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532506664;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,13 +39,13 @@
                 </a>
             </li>
             <li class="recruit-bg-color">
-                <a href="#">
+                <a href="<?php echo Url('zhaopin'); ?>">
                     <p class="nav-cn">企业招聘</p>
                     <p class="nav-en">RECRUITMENT</p>
                 </a>
             </li>
             <li class="home-bg-color">
-                <a href="#">
+                <a href="<?php echo Url('#'); ?>">
                     <p class="nav-cn">联系我们</p>
                     <p class="nav-en">CONTACT US</p>
                 </a>
@@ -63,14 +63,14 @@
     </div>
 
     <div class="section">
-        <div>
+        <div class="head-nav">
             <div class="head clearfix">
                 <a href="#" class="logo"></a>
                 <ul class="nav clearfix">
-                    <li><a href="#">首页</a></li>
-                    <li><a href="#">护士家园</a></li>
-                    <li><a href="#">家庭健康管家</a></li>
-                    <li><a href="#">招聘</a></li>
+                    <li><a href="<?php echo Url('index'); ?>">首页</a></li>
+                    <li><a href="<?php echo Url('nurse'); ?>">护士家园</a></li>
+                    <li><a href="<?php echo Url('manager'); ?>">家庭健康管家</a></li>
+                    <li><a href="<?php echo Url('zhaopin'); ?>">招聘</a></li>
                     <li><a href="#">联系我们</a></li>
                 </ul>
             </div>
@@ -177,8 +177,17 @@
             </div>
         </div>
     </div>
-    <div class="map">
-
+    <div class="map-contact">
+        <div class="content"></div>
+        <div class="ab-bg">
+            <div class="contact"><span class="color"></span><span class="we">联系我们</span><span class="color"></span></div>
+            <div class="seek" onclick="makeNewWindow('map')">
+                <img src="/index/image/icon/weizhi.png">
+                <p>查看地图</p>
+            </div>
+            <p class="adress">四川省绵阳市游仙区五里梁工业园区南路七号地7栋</p>
+            <img src="/index/image/lianxiwomentu.png">
+        </div>
     </div>
 
         <footer class="foot">
@@ -251,7 +260,22 @@
                 top:'0px',
             },1000);
         }
-
+        //弹出固定大小固定位置固定外观的新窗口
+        var newWindow;//定义一个窗口，有利于窗口间的通讯
+        function makeNewWindow(url) {
+            if (!newWindow || newWindow.closed) {
+                var width = 800;
+                var height = 500;
+                var left = parseInt((screen.availWidth/2) - (width/2));//屏幕居中
+                var top = parseInt((screen.availHeight/2) - (height/2));
+                var resizable='no';
+                var windowFeatures = "width=" + width + ",height=" + height + ",status,resizable,left=" + left + ",top=" + top + "screenX=" + left + ",screenY=" + top+',resizable='+resizable;
+                newWindow = window.open(url, "subWind", windowFeatures);
+            } else {
+                // window is already open, so bring it to the front
+                newWindow.focus();
+            }
+        }
 </script>
 
 </body>
