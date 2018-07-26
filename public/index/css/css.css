@@ -322,6 +322,7 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
     #certify  .swiper-slide img{width: 5.419rem;height: 3.032rem;}
     .information .help{font-size: 0.3rem;}
     .infor.step-one>div{height: 3.758rem;}
+    .step-one{margin-top: 0.8rem !important;}
     .step-one .zixun-img p{font-size: 1.693rem;height: 1.693rem;line-height: 1.693rem;}
     .step-one .title p{font-size: 0.27rem;margin-bottom: 0.129rem;}
     .step-one .zixun-img img{width: 1.451rem;height: auto;}
