@@ -10,13 +10,9 @@ p{margin: 0;}
 section{width: 100%;height: 100%;overflow: hidden;position:relative;transition: transform 1s cubic-bezier(0.86,0,0.03,1);-webkit-transition: -webkit-transform 1s cubic-bezier(0.86,0,0.03,1);display: block;}
 section>div{position: relative;display: block;height: 100%;background-position: center;background-repeat: no-repeat;text-align: center;}
 .section{overflow-x: hidden;overflow-y: auto;}
-.section>div,.header-page>div{width: 100%;position: relative;background-position: center;}
-.section>div>div,.header-page>div{margin-left: auto;margin-right: auto;}
+.section>div,.header-page>div{width: 100%;position: relative;background-position: center;text-align: center;}
+.section>div>div,.header-page>div{margin-left: auto;margin-right: auto;text-align: center;}
 
-@media only screen and (min-width: 1240px) {
-    .section>div{background-size:100% 100% !important;background-position: center;}
-    .section>div>div,.header-page>div{width: 1200px;text-align: center;position: relative;}
-}
 .head-nav{position: fixed !important;background-color: white;z-index: 2000;box-shadow: 0px 2px 2px #efefef;}
 .head-nav + div{margin-top: 80px;}
 .head{width: 1200px;}
@@ -33,7 +29,12 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
 /*
 **公共样式适配
  */
+@media only screen and (min-width: 1240px) {
+    .section>div{background-size:100% 100% !important;background-position: center;}
+    .section>div>div,.header-page>div{width: 1200px;}
+}
 @media only screen and (max-width: 1240px) {
+    .section>div>div,.header-page>div{width: 9.4rem;}
     .section>div{width: 10rem;}
     .section>div>div{width: 9.4rem;margin: 0 0.3rem;}
 }
@@ -211,7 +212,7 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
 .information span.block-color{background-color: rgb(45,166,155);display: inline-block;height: 3px;width: 59px;margin: 0 auto;}
 .information .slogan{color: rgb(138,138,138);font-size: 24px;line-height: 24px;font-weight: 300;margin-top: 25px;}
 .information .help{color: rgb(19,18,36);font-size: 24px;line-height: 40px;font-weight: 300;}
-.infor.step-one>div{float: left;position: relative;height: 466px;width: 600px;}
+.infor.step-one>div{float: left;position: relative;height: 466px;width: 50%;}
 .step-one{margin-top: 100px;}
 .step-one .left>div{position: relative;}
 .step-one .zixun-img p{color: rgb(241,241,241);font-size: 210px;text-align: left;height: 210px;line-height: 210px;}
@@ -319,6 +320,14 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
     #certify{width: 9.4rem;margin: 0.645rem 0.3rem 0.161rem;}
     #certify  .swiper-slide{width: 5.419rem;height: 3.032rem;}
     #certify  .swiper-slide img{width: 5.419rem;height: 3.032rem;}
+    .information .help{font-size: 0.3rem;}
+    .infor.step-one>div{height: 3.758rem;}
+    .step-one .zixun-img p{font-size: 1.693rem;height: 1.693rem;line-height: 1.693rem;}
+    .step-one .title p{font-size: 0.27rem;margin-bottom: 0.129rem;}
+    .step-one .zixun-img img{width: 1.451rem;height: auto;}
+    .information .most-new{font-size: 0.322rem;margin-bottom: 0.282rem;}
+
+   .step-one .right img{width: 4.6rem;height: auto;}
 }
 @media only screen and (max-width: 1240px) {
 
