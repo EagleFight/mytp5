@@ -1,8 +1,11 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532480384;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532420951;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532480384;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532584998;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link href="/index/css/css.css" rel="stylesheet">
     <script src="/home/js/jquery-2.1.0.js"></script>
     <script src="/index/js/index.js"></script>
@@ -16,15 +19,15 @@
 <section>
     
     <div class="section">
-        <div>
+        <div class="head-nav">
             <div class="head clearfix">
                 <a href="#" class="logo"></a>
                 <ul class="nav clearfix">
-                    <li><a href="<?php echo Url('index'); ?>">首页</a></li>
-                    <li><a href="<?php echo Url('nurse'); ?>">护士家园</a></li>
-                    <li><a href="<?php echo Url('manager'); ?>">家庭健康管家</a></li>
-                    <li><a href="#">招聘</a></li>
-                    <li><a href="#">联系我们</a></li>
+                    <li><a href="<?php echo Url('index'); ?>" style="<?php if(\think\Request::instance()->action() == 'index'): ?>color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);<?php endif; ?>">首页</a></li>
+                    <li><a href="<?php echo Url('nurse'); ?>" style="<?php if(\think\Request::instance()->action() == 'nurse'): ?>color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);<?php endif; ?>">护士家园</a></li>
+                    <li><a href="<?php echo Url('manager'); ?>" style="<?php if(\think\Request::instance()->action() == 'manager'): ?>color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);<?php endif; ?>">家庭健康管家</a></li>
+                    <li><a href="<?php echo Url('zhaopin'); ?>" style="<?php if(\think\Request::instance()->action() == 'zhaopin'): ?>color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);<?php endif; ?>">招聘</a></li>
+                    <li><a href="#" style="<?php if(\think\Request::instance()->action() == 'contact'): ?>color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);<?php endif; ?>">联系我们</a></li>
                 </ul>
             </div>
         </div>

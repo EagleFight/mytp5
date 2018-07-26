@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link href="/index/css/css.css" rel="stylesheet">
     <script src="/home/js/jquery-2.1.0.js"></script>
     <script src="/index/js/index.js"></script>
@@ -19,11 +22,11 @@
             <div class="head clearfix">
                 <a href="#" class="logo"></a>
                 <ul class="nav clearfix">
-                    <li><a href="{:Url('index')}">首页</a></li>
-                    <li><a href="{:Url('nurse')}">护士家园</a></li>
-                    <li><a href="{:Url('manager')}">家庭健康管家</a></li>
-                    <li><a href="{:Url('zhaopin')}">招聘</a></li>
-                    <li><a href="#">联系我们</a></li>
+                    <li><a href="{:Url('index')}" style="{eq name="Request.action" value="index"}color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);{/eq}">首页</a></li>
+                    <li><a href="{:Url('nurse')}" style="{eq name="Request.action" value="nurse"}color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);{/eq}">护士家园</a></li>
+                    <li><a href="{:Url('manager')}" style="{eq name="Request.action" value="manager"}color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);{/eq}">家庭健康管家</a></li>
+                    <li><a href="{:Url('zhaopin')}" style="{eq name="Request.action" value="zhaopin"}color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);{/eq}">招聘</a></li>
+                    <li><a href="#" style="{eq name="Request.action" value="contact"}color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);{/eq}">联系我们</a></li>
                 </ul>
             </div>
         </div>
