@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532679625;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532672233;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532680734;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532672233;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,7 +77,7 @@
                     <p class="title-en">Advanced concept</p>
                     <div class="color-line"></div>
                 </div>
-                <div class="service-item">
+                <div class="service-item service-item-no-margin">
                     <img src="/index/image/manager_04.png">
                     <p class="title-cn">创新家庭健康管家服务模式</p>
                     <p class="title-en">Innovative service mode</p>

@@ -1,8 +1,11 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:70:"E:\xampp\htdocs\tp5\public/../application/index\view\index\detail.html";i:1532506964;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532570043;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:70:"E:\xampp\htdocs\tp5\public/../application/index\view\index\detail.html";i:1532506964;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532672233;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link href="/index/css/css.css" rel="stylesheet">
     <script src="/home/js/jquery-2.1.0.js"></script>
     <script src="/index/js/index.js"></script>
@@ -114,7 +117,7 @@
                     <img src="/index/image/weixing.png">
                     <p>护士家园</p>
                 </div>
-                <img class="foot-logo" src="/index/image/foot-logo.png">
+                <img class="foot-logo hubo-logo" src="/index/image/foot-logo.png">
                 <img class="foot-logo" src="/index/image/foot-size.png">
                 <p>护博医疗版权所有 © 1997-2017</p>
                 <p>京ICP备12025925号 京ICP证010207号</p>

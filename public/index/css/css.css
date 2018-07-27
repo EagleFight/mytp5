@@ -494,15 +494,25 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
 .we-service>div .right-line{position: absolute;margin: auto;height: 2px;width: 300px;top:0;right: 0;background-color: white;}
 @media only screen and (max-width: 1240px) {
     .service-content-img{width: 9.4rem;}
+    .service{height: auto;padding-bottom: 0.8rem;}
+    .service .word{padding-top: 0.76rem;}
     .service .service-item{width: 2.2rem;height: 2.62rem;margin-right: 0.2rem;}
     .service .service-item:last-child{margin-right: 0;}
     .service .service-item .color-line{width: 2.2rem;}
     .service .service-item img{width: 2.2rem;height: auto;}
-    .service .service-item .title-cn{font-size: 0.145rem;}
+    .service .service-item .title-cn{font-size: 0.15rem;}
+    .service .service-item .title-en{font-size: 0.13rem;}
 
 
 }
+@media only screen and (max-width: 940px) {
+    .service .service-item{width: 4rem;height: auto;margin: 0.6rem 0.35rem 0 !important;}
+    /*.service .service-item:nth-child(odd){clear: left;}*/
+    .service .service-item img{width: 4rem;}
+    .service .service-item .title-cn{font-size: 0.22rem;margin-top: 0.265rem;}
+    .service .service-item .title-en{font-size: 0.18rem;padding-bottom: 0.3rem;}
 
+}
 @media only screen and (max-width: 600px) {
     .manager-head{height: auto;padding-bottom: 1rem;}
     .manager-head .health-type .title{font-size: 0.6rem;margin-top: 1rem;}
@@ -512,6 +522,8 @@ footer {width: 100%;min-width: 1200px;padding: 10px 0px;background: #000;clear: 
     .manager-head .health-type .type-item img{height: 1.4rem;}
     .manager-head .type-item .type-en{font-size: 0.3rem;}
     .manager-head .type-item .type-cn{font-size: 0.35rem;}
+    .service .service-item{width: 4.5rem;height: auto;margin: 0.6rem 0.4rem 0 0 !important;}
+    .service .service-item.service-item-no-margin{margin: 0.6rem 0 0 0 !important;}
 }
 
 /*
