@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\nurse.html";i:1532479629;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532584998;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\nurse.html";i:1532676448;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532672233;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -92,18 +92,18 @@
         </div>
         <div class="type">
             <img src="/index/image/icon/new.png">
-            <p class="title">火热推荐</p>
-            <p class="digest">近期热门话题精选推荐</p>
+            <p class="title">最新资讯</p>
+            <p class="digest">行业最新动态实时更新</p>
         </div>
         <div class="type">
             <img src="/index/image/icon/zazhi.png">
-            <p class="title">火热推荐</p>
-            <p class="digest">近期热门话题精选推荐</p>
+            <p class="title">行业期刊</p>
+            <p class="digest">行业电子杂志站内发行</p>
         </div>
         <div class="type">
             <img src="/index/image/icon/yumao.png">
-            <p class="title">火热推荐</p>
-            <p class="digest">近期热门话题精选推荐</p>
+            <p class="title">护士专栏</p>
+            <p class="digest">特别打造业界系列文章</p>
         </div>
     </div>
     <div class="study step-two clearfix">
@@ -116,21 +116,26 @@
             <div class="title">
                 <div class="color-line"></div>
                 <p>全面提升综合素养，满足个人及市场的发展需求</p>
-                <p>定提升自我价值</p>
+                <p>提升自我价值</p>
             </div>
             <p class="study-two">TWO</p>
         </div>
     </div>
     <div class="courese clearfix">
-        <div class="item">
-            <img src="/index/image/study_girl.png">
-        </div>
-        <div class="item item-bg">
+        <div class="item item-bg up-block">
             <p class="title"><span class="cn">在线课程</span><span class="en">ONLINE COURSE</span></p>
             <div class="color"></div>
             <p class="digest">业内专家、名师课堂、医护培训机构等入驻护士家园平台在线教授理论和实操课程。</p>
         </div>
-        <div class="item item-bg">
+        <div class="item">
+            <img src="/index/image/study_girl.png">
+        </div>
+        <div class="item item-bg down-none">
+            <p class="title"><span class="cn">在线课程</span><span class="en">ONLINE COURSE</span></p>
+            <div class="color"></div>
+            <p class="digest">业内专家、名师课堂、医护培训机构等入驻护士家园平台在线教授理论和实操课程。</p>
+        </div>
+        <div class="item item-bg right-down">
             <p class="title"><span class="cn">在线题库</span><span class="en">ONLINE COURSE</span></p>
             <div class="color"></div>
             <p class="digest">囊括护理行业所有专业考试试题</p>
@@ -194,9 +199,11 @@
     </div>
 </div>
 <div class="welcome">
-    <h3>护士家园欢迎您的到来</h3>
-    <p>我们将竭诚为您服务，找到属于自己的理想工作和生活方式</p>
-    <p>助力每一位用户成就人生辉煌！</p>
+    <div>
+        <h3>护士家园欢迎您的到来</h3>
+        <p>我们将竭诚为您服务，找到属于自己的理想工作和生活方式</p>
+        <p>助力每一位用户成就人生辉煌！</p>
+    </div>
 </div>
 
         <footer class="foot">
@@ -206,7 +213,7 @@
                     <img src="/index/image/weixing.png">
                     <p>护士家园</p>
                 </div>
-                <img class="foot-logo" src="/index/image/foot-logo.png">
+                <img class="foot-logo hubo-logo" src="/index/image/foot-logo.png">
                 <img class="foot-logo" src="/index/image/foot-size.png">
                 <p>护博医疗版权所有 © 1997-2017</p>
                 <p>京ICP备12025925号 京ICP证010207号</p>

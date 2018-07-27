@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html";i:1532573720;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532584998;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html";i:1532573720;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532672233;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -200,7 +200,7 @@
                     <img src="/index/image/weixing.png">
                     <p>护士家园</p>
                 </div>
-                <img class="foot-logo" src="/index/image/foot-logo.png">
+                <img class="foot-logo hubo-logo" src="/index/image/foot-logo.png">
                 <img class="foot-logo" src="/index/image/foot-size.png">
                 <p>护博医疗版权所有 © 1997-2017</p>
                 <p>京ICP备12025925号 京ICP证010207号</p>

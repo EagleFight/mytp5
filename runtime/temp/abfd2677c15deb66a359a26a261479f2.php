@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532480384;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532584998;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532679625;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532672233;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +32,9 @@
             </div>
         </div>
         
-    <div class="head-bg"></div>
+    <div class="head-bg">
+        <img src="/index/image/manager_01.png">
+    </div>
     <div class="manager-head">
         <div class="health-type clearfix">
             <p class="title">深耕家庭健康生活方式</p>
@@ -68,7 +70,7 @@
         <div>
             <div class="word"><span class="color"></span><span class="title">四大服务特性</span><span class="color"></span></div>
             <p class="word-en">SERVICE FEATURES</p>
-            <div class="clearfix">
+            <div class="service-content-img clearfix">
                 <div class="service-item">
                     <img src="/index/image/manager_03.png">
                     <p class="title-cn">采用国外健康管理先进理念</p>
@@ -206,7 +208,7 @@
                     <img src="/index/image/weixing.png">
                     <p>护士家园</p>
                 </div>
-                <img class="foot-logo" src="/index/image/foot-logo.png">
+                <img class="foot-logo hubo-logo" src="/index/image/foot-logo.png">
                 <img class="foot-logo" src="/index/image/foot-size.png">
                 <p>护博医疗版权所有 © 1997-2017</p>
                 <p>京ICP备12025925号 京ICP证010207号</p>
