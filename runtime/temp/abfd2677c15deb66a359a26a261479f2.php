@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532680734;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532672233;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\manager.html";i:1532919391;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532672233;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -72,25 +72,25 @@
             <p class="word-en">SERVICE FEATURES</p>
             <div class="service-content-img clearfix">
                 <div class="service-item">
-                    <img src="/index/image/manager_03.png">
+                    <div class="img"><img src="/index/image/manager_03.png"></div>
                     <p class="title-cn">采用国外健康管理先进理念</p>
                     <p class="title-en">Advanced concept</p>
                     <div class="color-line"></div>
                 </div>
                 <div class="service-item service-item-no-margin">
-                    <img src="/index/image/manager_04.png">
+                    <div class="img"><img src="/index/image/manager_04.png"></div>
                     <p class="title-cn">创新家庭健康管家服务模式</p>
                     <p class="title-en">Innovative service mode</p>
                     <div class="color-line"></div>
                 </div>
                 <div class="service-item">
-                    <img src="/index/image/manager_05.png">
+                    <div class="img"><img src="/index/image/manager_05.png"></div>
                     <p class="title-cn">私人定制健康服务方案</p>
                     <p class="title-en">Private customization</p>
                     <div class="color-line"></div>
                 </div>
-                <div class="service-item">
-                    <img src="/index/image/manager_06.png">
+                <div class="service-item service-item-no-margin">
+                    <div class="img"><img src="/index/image/manager_06.png"></div>
                     <p class="title-cn">24小时全天候服务</p>
                     <p class="title-en">24-hour service</p>
                     <div class="color-line"></div>
@@ -128,7 +128,7 @@
     <div class="four-service">
         <h2>四位一体标准化服务</h2>
         <p class="digest">以服务中心为纽带协同健康顾问、健康管家、医疗团队，形成对客户四位一体的标准化健康管理服务体系。</p>
-        <img src="/index/image/manager_09.png">
+        <div><img src="/index/image/manager_09.png"></div>
     </div>
     <div class="four-features">
         <div class="video clearfix">

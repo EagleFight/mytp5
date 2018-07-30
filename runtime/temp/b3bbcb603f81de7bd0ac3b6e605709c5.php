@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\zhaopin.html";i:1532506224;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532672233;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"E:\xampp\htdocs\tp5\public/../application/index\view\index\zhaopin.html";i:1532936700;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532672233;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,7 +33,7 @@
         </div>
         
     <div class="zhao-join-head">
-
+        <img src="/index/image/zhaopin_01.png">
     </div>
     <div class="zhao-platform">
         <div class="word">
@@ -43,7 +43,7 @@
             <p class="slogan">提升自我价值，满足自我修养，</p>
             <p class="slogan">助力未来，为梦起航</p>
         </div>
-        <div class="img-type">
+        <div class="img-type clearfix">
             <img src="/index/image/zhaopin_02.png">
             <img src="/index/image/zhaopin_03.png">
             <img src="/index/image/zhaopin_04.png">
@@ -65,7 +65,7 @@
                 </div>
                 <div class="down"><img src="/index/image/zhaopin_07.png"></div>
             </div>
-            <div class="center">
+            <div class="center clearfix">
                 <div class="up"><img src="/index/image/zhaopin_08.png"></div>
                 <div class="down">
                     <p class="content">功能完备的培训室</p>
@@ -106,7 +106,9 @@
             </ul>
         </div>
     </div>
-    <div class="zhao-join-foot"></div>
+    <div class="zhao-join-foot">
+        <img src="/index/image/zhaopin_10.png">
+    </div>
 
         <footer class="foot">
             <!--<a href="javascript:void(0)" class="btn_top" id="rMenuCont" title="返回顶部" style="display: inline;"></a>-->

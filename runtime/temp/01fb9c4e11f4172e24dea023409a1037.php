@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:70:"E:\xampp\htdocs\tp5\public/../application/index\view\index\detail.html";i:1532506964;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532672233;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:70:"E:\xampp\htdocs\tp5\public/../application/index\view\index\detail.html";i:1532937337;s:59:"E:\xampp\htdocs\tp5\application\index\view\public\base.html";i:1532672233;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,7 +33,7 @@
         </div>
         
 <div class="detail-head">
-
+    <img src="/index/image/detail_head.png">
 </div>
 <div class="detail-content">
     <div class="circle">聘</div>
